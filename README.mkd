@@ -1,0 +1,12 @@
+# Preliminary Exams #
+
+This is a repo containing my answers for my preliminary exams. This is inspired
+by [dissertate](https://github.com/suchow/dissertate). Unlike that I prefer to
+use [latex-mk](http://latex-mk.sourceforge.net/) to build the latex. In
+addition, I have stripped things down since I don't really need a front matter
+or back matter and stuff for each set of answers. Plus I'm producing several
+documents instead of just one document.
+
+
+# Author #
+Blake Sweeney <bsweene@bgsu.edu>
