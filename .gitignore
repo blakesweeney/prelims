@@ -8,6 +8,8 @@
 *.acr
 *.alg
 *.bbl
+*-blx.bib
+*.bib-stamp
 *.blg
 *.dvi
 *.glg
@@ -16,6 +18,7 @@
 *.ind
 *.lof
 *.lot
+*.log
 *.maf
 *.mtc
 *.mtc1
@@ -23,4 +26,5 @@
 *.synctex.gz
 *.ps
 *.pdf
+*.run.xml
 */questions/*.tex
