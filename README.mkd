@@ -7,6 +7,10 @@ addition, I have stripped things down since I don't really need a front matter
 or back matter and stuff for each set of answers. Plus I'm producing several
 documents instead of just one document.
 
+# Building #
+
+To build all pdfs run make in the top level directory. For a pdf of a specific
+set of questions run make in that one directory.
 
 # Author #
 Blake Sweeney <bsweene@bgsu.edu>
