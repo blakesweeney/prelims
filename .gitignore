@@ -28,3 +28,4 @@
 *.pdf
 *.run.xml
 */questions/*.tex
+*.pyc
