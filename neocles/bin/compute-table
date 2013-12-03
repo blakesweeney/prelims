@@ -1,0 +1,82 @@
+#!/usr/bin/env python
+
+# Summary: Compute the table neocles wants me to compute
+# Usage: compute-table
+# Help: Compute the table. This will produce a latex file with the answers to
+# all computations and write it to stdout.
+
+import sys
+import json
+import inspect
+import itertools as it
+from pprint import pprint
+
+import quantities as pq
+
+sys.path.append("libs")
+import toposort as tp
+import molecular_properties as mp
+
+
+def load_data(raw):
+    data = json.load(raw)
+    for entry in data:
+        entry['weight'] = float(entry['weight']) * pq.dalton
+        density_unit = pq.kilogram / (pq.meter ** 3)
+        entry['density'] = float(entry['density']) * density_unit
+    return data
+
+
+def get_functions():
+    funcs = []
+    func_args = {}
+    for name, func in inspect.getmembers(mp, inspect.isfunction):
+        if name[0:8] == 'compute_':
+            funcs.append(func)
+            computes = func.__name__.replace('compute_', '')
+            func_args[computes] = func
+    return funcs, func_args
+
+
+def get_dependencies(funcs, func_args, known):
+    deps = {}
+    for func in funcs:
+        dep = set()
+        for arg in func._args:
+            if arg not in known:
+                dep.add(func_args[arg])
+        deps[func] = dep
+    return deps
+
+
+def transform(data, funcs):
+    transformed = []
+    for entry in data:
+        updated = dict(entry)
+        for func in funcs:
+            name = func.__name__.replace('compute_', '')
+            args = tuple([updated[arg] for arg in func._args])
+            result = func(*args)
+            updated[name] = result
+        transformed.append(updated)
+    return transformed
+
+
+def save(data):
+    pprint(data)
+
+
+def main(data_file):
+    with open(data_file, 'rb') as raw:
+        data = load_data(raw)
+
+    known = set(data[0].keys())
+    all_funcs, func_args = get_functions()
+    deps = get_dependencies(all_funcs, func_args, known)
+    funcs = list(it.chain.from_iterable(tp.toposort(deps)))
+
+    transformed = transform(data, funcs)
+    save(transformed)
+
+if __name__ == '__main__':
+    main(sys.argv[1])

@@ -1,0 +1,7 @@
+# Neocles #
+
+These are my answers to Neocles Leontis's question for my preliminary exams.
+
+
+# Author #
+Blake Sweeney <bsweene@bgsu.edu>

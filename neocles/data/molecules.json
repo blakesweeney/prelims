@@ -1,0 +1,27 @@
+[
+  {
+  "name": "water",
+  "weight": 18,
+  "density": 1000
+},
+{
+  "name": "tRNA",
+  "weight": 25080,
+  "density": 1760
+},
+{
+  "name": "protein",
+  "weight": 100000,
+  "density": 1380
+},
+{
+  "name": "30S Ribosome",
+  "weight": 1600000,
+  "density": 1670
+},
+{
+  "name": "70S Ribosome",
+  "weight": 2700000,
+  "density": 1670
+}
+]
