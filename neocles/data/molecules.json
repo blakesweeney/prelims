@@ -1,6 +1,6 @@
 [
   {
-  "name": "water",
+  "name": "Water",
   "weight": 18,
   "density": 1000
 },
@@ -10,7 +10,7 @@
   "density": 1760
 },
 {
-  "name": "protein",
+  "name": "Typical Protein",
   "weight": 100000,
   "density": 1380
 },

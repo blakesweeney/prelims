@@ -59,12 +59,12 @@ def compute_pico_friction_coefficient(friction_coefficient):
 
 @output_units(pq.joule)
 def compute_average_ke():
-    value = 0.5 * pq.constants.Boltzmann_constant * T
+    value = 1.5 * pq.constants.Boltzmann_constant * T
     return value.rescale(pq.joule)
 
 
 @output_units(pq.piconewton * pq.picometer)
-def compute_averge_pico_ke(average_ke):
+def compute_average_pico_ke(average_ke):
     return average_ke.rescale(pq.piconewton * pq.picometer)
 
 

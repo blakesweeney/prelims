@@ -1,0 +1,207 @@
+#!/usr/bin/env python
+
+# Summary: Generate a Latex table from the data file
+# Usage: table-as-latex data-file
+# Help:
+
+import sys
+import pickle
+from numbers import Number
+from string import Template
+
+TABLE = '''
+\\begin{table}[h]
+\caption{$title}
+\\begin{tabular}{$spec}
+\\toprule
+$headers \\\\
+\midrule
+$rows
+\\bottomrule
+\label{table-$index}
+\end{tabular}
+\end{table}
+'''
+
+ORDER = [
+    'name',
+    'weight',
+    'mass',
+    'density',
+    'volume',
+    'radius',
+    'friction_coefficient',
+    'pico_friction_coefficient',
+    'average_ke',
+    'average_pico_ke',
+    'average_velocity',
+    'average_thermal_force',
+    'gravitational_force',
+    'centrifugal_force',
+    'linear_diffusion_coefficient',
+    'micro_linear_diffusion_coefficient',
+    'translation_time_constant',
+    'average_distance',
+    'first_passage_time',
+    'diffusion_in_10_ps',
+    'diffusion_in_10_ns',
+    'diffusion_in_10_us',
+    'diffusion_in_10_ms',
+    'viscous_terminal_velocity',
+    'viscous_distance',
+    'ideal_terminal_velocity',
+    'ideal_distance'
+]
+
+
+TABLES = [
+    ('Basic Phyiscal Properties',
+     ['weight', 'mass', 'density', 'volume', 'radius']),
+    ('Forces',
+     ['gravitational_force', 'centrifugal_force', 'average_thermal_force']),
+    ('Friction',
+     ['friction_coefficient', 'pico_friction_coefficient']),
+    ('Kinetic Energy Averages',
+     ['average_ke', 'average_pico_ke', 'average_velocity']),
+    ('Diffusion Properties',
+     ['linear_diffusion_coefficient', 'micro_linear_diffusion_coefficient']),
+    ('Diffusion Constants',
+     ['translation_time_constant', 'average_distance', 'first_passage_time']),
+    ('Distance Diffused in a Given Time',
+     ['diffusion_in_10_ps',
+      'diffusion_in_10_ns',
+      'diffusion_in_10_us',
+      'diffusion_in_10_ms']),
+    ('Motion due to 1pN Force for 1pS in Viscous or Ideal Conditions',
+     ['viscous_terminal_velocity',
+      'ideal_terminal_velocity',
+      'viscous_distance',
+      'ideal_distance'])
+]
+
+NAMES = {
+    'name': 'Molecule',
+    'weight': 'Molecular Weight',
+    'mass': 'Mass',
+    'density': 'Density',
+    'volume': 'Volume',
+    'radius': 'Radius',
+    'friction_coefficient': 'Frictional Coefficient',
+    'pico_friction_coefficient': 'Frictional Coefficient',
+    'average_ke': 'Kinetic Energy',
+    'average_pico_ke': 'Kinetic Energy',
+    'average_velocity': 'Velocity',
+    'average_thermal_force': 'Average Thermal Force',
+    'gravitational_force': 'Gravitational Force',
+    'centrifugal_force': 'Centrifugal Force',
+    'linear_diffusion_coefficient': 'Linear Diffusion Coefficient',
+    'micro_linear_diffusion_coefficient': 'Linear Diffusion Coefficient',
+    'translation_time_constant': 'Translation Time Constant',
+    'average_distance': 'Randomization Distance',
+    'first_passage_time': '5nm First Passage Time',
+    'diffusion_in_10_ps': '10ps',
+    'diffusion_in_10_ns': '10ns',
+    'diffusion_in_10_us': '10$\mathrm{\mu}$s',
+    'diffusion_in_10_ms': '10ms',
+    'viscous_terminal_velocity': 'Viscous Terminal Velocity',
+    'viscous_distance': 'Viscous Distance Travelled',
+    'ideal_terminal_velocity': 'Ideal Terminal Velocity',
+    'ideal_distance': 'Ideal Distance Travelled'
+}
+
+
+VISCOUS_TEMPLATE = """
+\\begin{table}[h]
+\caption{$title}
+\\begin{tabular}{rllll}
+\\toprule
+Molecule & \multicolumn{2}{c}{Terminal Velocity ($$\mathrm{\\frac{m}{s}}$$)} &
+           \multicolumn{2}{c}{Distance Travelled ($$\mathrm{m}$$)} \\\\
+ & Viscous & Ideal & Viscous & Ideal \\\\
+\midrule
+$rows
+\\bottomrule
+\label{table-$index}
+\end{tabular}
+\end{table}
+"""
+
+
+def headers(data, columns):
+    entry = data[0]
+    headers = []
+    for name in columns:
+        if hasattr(entry[name], 'dimensionality'):
+            latex = entry[name].dimensionality.latex
+            name = NAMES[name]
+            header = '%s (%s)' % (name, latex)
+        else:
+            header = NAMES[name]
+        headers.append(header)
+    return ' & '.join(headers) + '\\\\' + '\n'
+
+
+def spec(data, columns, par=False):
+    if par:
+        return 'l' + ('p{3cm}' * (len(columns) - 1))
+    return 'l' + ('r' * (len(columns) - 1))
+
+
+def row(entry, columns):
+    values = []
+    options = ['round-precision=3', 'round-mode=figures',
+               'scientific-notation=true']
+    options = ','.join(options)
+    latex = '\\num[' + options + ']{%s}'
+    for name in columns:
+        value = entry[name]
+        if hasattr(value, 'dimensionality'):
+            value = value.magnitude.item(0)
+        if isinstance(value, Number):
+            value = latex % value
+        values.append(str(value))
+    return ' & '.join(values) + '\\\\'
+
+
+def rows(data, columns):
+    rows = [row(entry, columns) for entry in data]
+    return '\n'.join(rows)
+
+
+def load_data(raw):
+    return pickle.load(raw)
+
+
+def generate_tables(data):
+    for index, (title, cols) in enumerate(TABLES):
+        columns = ['name']
+        columns.extend(cols)
+        template = Template(TABLE)
+        par = (title == 'Diffusion Constants' or
+               'Motion' in title)
+        if 'Motion' in title:
+            template = Template(VISCOUS_TEMPLATE)
+        yield template.substitute({
+            'headers': headers(data, columns),
+            'spec': spec(data, columns, par=par),
+            'rows': rows(data, columns),
+            'index': index,
+            'title': title
+        })
+
+
+def save(tables):
+    for table in tables:
+        sys.stdout.write(table)
+        sys.stdout.write("\n")
+
+
+def main(filename):
+    with open(filename, 'rb') as raw:
+        data = load_data(raw)
+
+    tables = generate_tables(data)
+    save(tables)
+
+if __name__ == '__main__':
+    main(sys.argv[1])

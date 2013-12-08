@@ -1,15 +1,17 @@
 #!/usr/bin/env python
 
-# Summary: Compute the table neocles wants me to compute
-# Usage: compute-table
-# Help: Compute the table. This will produce a latex file with the answers to
-# all computations and write it to stdout.
+# Summary: Compute the valeus Neocles wants computed
+# Usage: compute-table config-file
+# Help: Compute all values in the table. This will load a json formatted config
+# that contains a list of dicts. Each dict specifies the basic information for
+# each molecule. This will write a pickle formatted list of dicts to stdout.
 
 import sys
 import json
+import pickle
 import inspect
 import itertools as it
-from pprint import pprint
+#from pprint import pprint
 
 import quantities as pq
 
@@ -63,7 +65,7 @@ def transform(data, funcs):
 
 
 def save(data):
-    pprint(data)
+    pickle.dump(data, sys.stdout)
 
 
 def main(data_file):

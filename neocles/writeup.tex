@@ -8,6 +8,11 @@
 \usepackage[english]{babel}
 \usepackage{csquotes}
 \usepackage{biblatex}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{varwidth}
+\usepackage{rotating}
+\usepackage{multirow}
 
 \title{Preliminary Examination Answers}
 \subtitle{Dr. Neocles Leontis}
@@ -16,9 +21,25 @@
 
 \addbibresource{all.bib}
 
+%\newcolumntype{M}[1]{
+%>{\begin{varwidth}{#1}}
+%r
+%<{\end{varwidth}}}
+
+%\newcolumntype{R}[1]{%
+  %>{\begin{varwidth}}
+  %r
+  %<{\end{varwidth}}
+%}%
+  
+
 \begin{document}
+
 \maketitle
 \include{questions/question-1}
+
+\section{Tables}
+  \input{figs/properties.latex}
 
 \printbibliography
 
