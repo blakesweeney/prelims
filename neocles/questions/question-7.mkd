@@ -2,22 +2,22 @@
 
 > When you drive down the highway the distance you travel is proportional to the
 > time on the road (distance = velocity x time). If you drive 1 hour you go 70
-> miles or so and in two hours, twice that or 140 miles. __Is that how diffusion
-> works?__ Do some calculations using the diffusion equations to find out --
+> miles or so and in two hours, twice that or 140 miles. Is that how diffusion
+> works? Do some calculations using the diffusion equations to find out --
 > columns are provided on the spreadsheet. Calculate the rms distance that
 > different size molecules or particles (water, tRNA, 100 kD Protein, 70S
-> ribosome) travel over different times (10ps, 10ns, 10µs, 10ms). __Does
+> ribosome) travel over different times (10ps, 10ns, 10$\mu$s, 10ms). __Does
 > distance = velocity x time?__ 
 > 
 > Discussion: In complete sentences reflect on the calculations by addressing
 > questions like these: __Are the distances 1000 times longer from one time
 > interval to the next?__ __How does the distance depend on the mass?__ Also
 > calculate the first-passage time or time to diffuse a given distance. Use 5 nm
-> = 50Å which is how far tRNA moves from the P site to the E site.  __How long
-> does it take tRNA to travel this distance just by diffusion?__ __How does that
-> time compare to the time for one elongation step?__ __Is it fast enough for
+> which is how far tRNA moves from the P site to the E site. __How long does it
+> take tRNA to travel this distance just by diffusion?__ __How does that time
+> compare to the time for one elongation step?__ __Is it fast enough for
 > translation (compare to time to add one amino acid to protein chain)__
 
 Net distance moved does not scale linearly with time as it does for directed
 motion. Because diffusion is a random walk, your net distance may not be
-proportional to the time
+proportional to the time.
