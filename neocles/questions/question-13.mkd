@@ -9,3 +9,26 @@
 > calculations.  Calculate average thermal forces for other size particles
 > listed on the
 > [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AoEMT6hLl5eZdFZtemFSTWM0em9ZdU1LU2Y5c2FyQkE#gid=2).
+
+The thermal force can be thought of the force due to the molecule moving
+through the medium. This needs to take into account the size of the molecule and
+how fast it is moving. A larger molecule will have more impacts and thus
+experience more force. In addition a molecule moving faster will impact harder
+so experience more force. We can compute this using the frictional coefficient
+and the average velocity due to the molecules kinetic energy. We multiply the
+two values to get the thermal force. The frictional coefficient takes into
+account the exposed surface area of the molecule as well as what it is moving
+through, while the average velocity deals with how fast the molecule is moving.
+It scales proportionally with temperature and inversely with mass. Thus a
+molecule in a hotter place will experience more force while a larger molecule
+will experience less.
+
+A sample calculation for water is below. Values are taken from the spreadsheet.
+
+$$
+\begin{array}{rcl}
+F_{thermal} &=& \gamma <v> \\
+F_{thermal} &=& 6.63 \frac{\mathrm{pNs}}{\mathrm{m}} * \num[round-precision=3,round-mode=figures,scientific-notation=true]{655} \frac{\mathrm{m}}{\mathrm{s}} \\
+            &=& \num[round-precision=3,round-mode=figures,scientific-notation=true]{2380}\mathrm{pN}
+\end{array}
+$$
