@@ -12,7 +12,7 @@ figs: figs/properties.latex
 questions/%.tex: questions/%.mkd
 	pandoc $< $(PANDOC_OPTS) -o $@
 
-tmp/properties.pickle: bin/compute-table data/molecules.json
+tmp/properties.pickle: bin/compute-table data/molecules.json libs/molecular_properties.py
 	$^ > $@
 
 figs/properties.latex: bin/table2latex tmp/properties.pickle

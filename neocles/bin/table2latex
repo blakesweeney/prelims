@@ -50,12 +50,15 @@ ORDER = [
     'viscous_terminal_velocity',
     'viscous_distance',
     'ideal_terminal_velocity',
-    'ideal_distance'
+    'ideal_distance',
+    'force_in_water',
+    'force_in_protein',
+    'force_in_vacuum'
 ]
 
 
 TABLES = [
-    ('Basic Phyiscal Properties',
+    ('Basic Physical Properties',
      ['weight', 'mass', 'density', 'volume', 'radius']),
     ('Forces',
      ['gravitational_force', 'centrifugal_force', 'average_thermal_force']),
@@ -76,7 +79,9 @@ TABLES = [
      ['viscous_terminal_velocity',
       'ideal_terminal_velocity',
       'viscous_distance',
-      'ideal_distance'])
+      'ideal_distance']),
+    ('Force of two Charges (-1, +1) in 1nM Separated by Various Substances',
+     ['force_in_water', 'force_in_vacuum', 'force_in_protein'])
 ]
 
 NAMES = {
@@ -106,7 +111,10 @@ NAMES = {
     'viscous_terminal_velocity': 'Viscous Terminal Velocity',
     'viscous_distance': 'Viscous Distance Travelled',
     'ideal_terminal_velocity': 'Ideal Terminal Velocity',
-    'ideal_distance': 'Ideal Distance Travelled'
+    'ideal_distance': 'Ideal Distance Travelled',
+    'force_in_water': 'Water',
+    'force_in_protein': 'Core of a Protein',
+    'force_in_vacuum': 'Vacuum'
 }
 
 
@@ -115,9 +123,11 @@ VISCOUS_TEMPLATE = """
 \caption{$title}
 \\begin{tabular}{rllll}
 \\toprule
-Molecule & \multicolumn{2}{c}{Terminal Velocity ($$\mathrm{\\frac{m}{s}}$$)} &
-           \multicolumn{2}{c}{Distance Travelled ($$\mathrm{m}$$)} \\\\
- & Viscous & Ideal & Viscous & Ideal \\\\
+ & \multicolumn{2}{c}{Terminal Velocity ($$\mathrm{\\frac{nm}{s}}$$)} &
+           \multicolumn{2}{c}{Distance Travelled ($$\mathrm{nm}$$)} \\\\
+\cmidrule{2-3}
+\cmidrule{4-5}
+Molecule  & Viscous & Ideal & Viscous & Ideal \\\\
 \midrule
 $rows
 \\bottomrule
@@ -172,22 +182,37 @@ def load_data(raw):
     return pickle.load(raw)
 
 
+def charge_table(data, index, title, columns):
+    template = Template(TABLE)
+    return template.substitute({
+        'headers': headers(data, columns),
+        'spec': spec(data, columns, par=False),
+        'rows': rows(data, columns).split("\n")[0],
+        'index': index,
+        'title': title
+    })
+
+
 def generate_tables(data):
     for index, (title, cols) in enumerate(TABLES):
-        columns = ['name']
-        columns.extend(cols)
-        template = Template(TABLE)
-        par = (title == 'Diffusion Constants' or
-               'Motion' in title)
-        if 'Motion' in title:
-            template = Template(VISCOUS_TEMPLATE)
-        yield template.substitute({
-            'headers': headers(data, columns),
-            'spec': spec(data, columns, par=par),
-            'rows': rows(data, columns),
-            'index': index,
-            'title': title
-        })
+        if 'Charges' in title:
+            yield charge_table(data, index, title, cols)
+        else:
+            columns = ['name']
+            columns.extend(cols)
+            template = Template(TABLE)
+            par = (title == 'Diffusion Constants' or
+                   'Motion' in title)
+            if 'Motion' in title:
+                template = Template(VISCOUS_TEMPLATE)
+
+            yield template.substitute({
+                'headers': headers(data, columns),
+                'spec': spec(data, columns, par=par),
+                'rows': rows(data, columns),
+                'index': index,
+                'title': title
+            })
 
 
 def save(tables):

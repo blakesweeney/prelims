@@ -6,12 +6,12 @@
 # that contains a list of dicts. Each dict specifies the basic information for
 # each molecule. This will write a pickle formatted list of dicts to stdout.
 
+import imp
 import sys
 import json
 import pickle
 import inspect
 import itertools as it
-#from pprint import pprint
 
 import quantities as pq
 
