@@ -1,0 +1,17 @@
+# Directed Motion Caused by Molecular Machines
+
+> A second reason for using the term "molecular machine" is that these
+> nano-scale machines give rise to directed motion of one or more of the objects
+> on which they act, just as macroscopic machines do. In other words, they do work
+> on these objects so that they are displaced from their original locations at the
+> start of the cycle to a different location relative to the machine upon
+> completion of a finite number of cycles of the machine. For two different
+> molecular machines, one of which should be the ribosome, describe the directed
+> motions each machine gives rise to. Be sure to include: How many cycles of the
+> machine are necessary to displace each particular object? How far does the
+> object move? Sketch out what you would need to measure to calculate the energy
+> needed to move the object, i.e. the work done on the object by the machine? 
+
+## The Ribosome ##
+
+The ribosome

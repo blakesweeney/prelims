@@ -1,0 +1,9 @@
+# Energy Storage in Molecular Machines #
+
+> Like macroscopic machines, molecular machines are made of modular parts that
+> have specific functions and that undergo characteristic motions. We will address
+> this aspect of molecular machines after you look at some movies. Macroscopic
+> machines have components for conserving momentum and using it to move between
+> states that generate power (“power strokes”). An example is the flywheel in a
+> car engine. After you do calculations on frictional forces, reflect on whether
+> you expect to find components that behave like flywheels in nano-scale machines. 

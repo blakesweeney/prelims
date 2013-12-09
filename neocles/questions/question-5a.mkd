@@ -1,0 +1,9 @@
+# Coupling in Molecular Machines #
+
+> The previous questions concern how nano- and macro-scopic machines are
+> similar. Let’s now think about how they are different. First, let’s start with
+> something Peter Moore says: “The motions of the components of a macroscopic
+> machine are perfectly coupled.” Explain what this means and discuss whether
+> the same is true of a nano-scale machine like the ribosome. What experiments
+> and or calculations Inform your answer (i.e. what is the evidence for
+> concluding one way or the other)? 

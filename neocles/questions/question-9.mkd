@@ -1,0 +1,10 @@
+# Modeling Motion in the Ribosome #
+
+> Have a look at some of the movies of ribosomes produced by the Ramakrishan and
+> Steitz groups. Pick two, identify them and describe what they show. Explain
+> how these are made -- don't just use the word "morphing" -- explain what that
+> means. How are these movies useful? How can then be misleading? Are they
+> realistic? If not why not? 
+> 
+> [Steitz](http://www.yale.edu/steitz/movies.html)
+> [Ramakrishan](http://www.mrc-lmb.cam.ac.uk/ribo/homepage/mov_and_overview.html)

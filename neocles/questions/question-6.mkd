@@ -1,0 +1,20 @@
+# Calculating Frictional Forces #
+
+> Peter Moore says in his review that at the nanoscale "Frictional forces are
+> King." Do these calculations to test that statement:  Calculate the frictional
+> force (aka "drag" or "viscous force") for a water molecule, a tRNA, a 100 kD
+> protein and a 70S ribosome using this 
+> [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AoEMT6hLl5eZdFZtemFSTWM0em9ZdU1LU2Y5c2FyQkE#gid=2)
+>
+>
+> Also calculate (for comparison) the gravitational forces on these particles as
+> well as the centrifugal forces at 100,000g (ultracentrifuge!). Use the
+> spreadsheet but also write out your calculations on paper to make sure units
+> cancel properly. Compare your values with those in the review (for 70S) and in
+> the book (for 100kD protein). Also compare the frictional forces to the forces
+> holding atoms together in covalent bonds. As an example use a typical bond
+> energy of 400 kJ/mole to calculate the energy of one bond and from this
+> calculate the force constant (kappa) assuming a harmonic oscillator with PE =
+> the bond energy. Approximate as F = 2PE/(bond length). See if you get numbers
+> in the range for covalent bonds on p. 11 in the book. Reflect on what you
+> learn from these calculations here.

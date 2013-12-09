@@ -1,0 +1,4 @@
+# Biased Random Walk #
+
+> Peter Moore in his review uses the term “biased random walk.” Provide a
+> definition here and give examples (at least 3!) from the ribosome: 

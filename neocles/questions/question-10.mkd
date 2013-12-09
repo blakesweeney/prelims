@@ -1,0 +1,12 @@
+# Mechanical Parts in the Ribosome #
+
+> Machines have mechanical components like hinges, levers, latches, shafts, etc.
+> Make a list of mechanical components from macroscopic machines and identify
+> which ones might have analogues in molecular machines and which ones likely
+> don't. Study the movies on these websites and 30S ribosome structure (2D and
+> 3D) with and without tRNAs using SwissPDBviewer to identify regions which
+> might be acting as such mechanical components -- RNA as well as proteins. Also
+> use Pubmed to search for papers that have identified by experiment or
+> simulation or created through nano-engineering modular parts out of RNA, DNA,
+> or Protein, and used them to build new molecular machines. Open-ended question
+> to search the literature! 

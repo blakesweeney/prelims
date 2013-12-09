@@ -1,0 +1,102 @@
+# Methodological Concerns #
+
+> Two important physical methods for determining the structures of molecular
+> machines like the ribosome in different states are x-ray crystallography and
+> cryo-EM microscopy. __Explain the basic physics behind each method to clarify
+> the strengths and limitations of each method, i.e. compare and contrast
+> them.__ Peter Moore says in his recent review that cryo-EM could one day
+> provide a complete movie of the ribosome during translation in a single (or
+> small number) of experiments ("that experiment would be game, set, match").
+> __Why does he say that about cryo-EM and not about x-ray crystallography?__
+> __What current problems with cryo-EM will have to be overcome to get to that
+> point?__
+
+The two main techniques for determining structure are X-ray crystallography and
+cryo-election microscopy (cryo-EM). Both techniques produce a 3D picture of the
+molecule being studied. They both have contributed greatly to our understanding
+of the ribosome. Currently, X-ray methods have produced higher quality
+structures of very specific states, while cryo-EM has produced lower resolution
+structures in a broad range of states. This difference is due to the basics of
+how these techniques work.
+
+The key step in x-ray crystallography, and often one of the hardest, is
+generating a crystal of the desired molecule. This is required because x-ray
+diffraction currently requires a regular crystal for the x-rays to reflect off,
+though this may not always be the case [@Tinoco2011]. Generating the crystal is
+often hard for ribosomes because they are not rigid molecules. This flexibility
+of them makes it difficult to create a crystal. However, there are several
+tricks crystallographers have to force crystallization. They are, in no
+particular order:
+
+1.  Modification of the molecule
+    For the ribosome this can mean removing whole helices or not including
+    various ribo-proteins.
+
+2.  Addition of antibiotics
+    It has been found that various antibiotics promote the crystallization of
+    ribosomes.
+
+3.  Manipulation of the pH and salt conditions
+    Unusual salt and pH conditions can help force crystallization be putting the
+    molecule into a more rigid state.
+
+With these tools it is possible to create a crystal of many molecules. Once such
+a crystal is made then the crystal is taken to a beam line and bombard with
+x-rays. These x-rays reflect off the electrons in the molecules. And because the
+molecules are ordered in the crystal, a regular reflection pattern is produced.
+This reflection pattern is the used to compute the electron cloud of the
+molecules in the crystal. The cloud is then fit, often automatically, with the
+chemical structure of the molecule. This produces a model of the molecules in
+the crystal.
+
+Cryo-election microscopy does not require the generation of a crystal. This
+allows the experiment to be done in more natural conditions. This is one of the
+major differences with X-ray crystallography.
+
+This technique begins with a pure sample of ribosomes, which should be in a
+relatively uniform state. That is to say, they should all be in roughly the same
+part of the translation pathway. This sample is then flash frozen. This freezing
+fixes all the molecules into whichever state they are currently in. This sample
+is then deposited onto a grid for imaging by the electron microscope (EM). 
+
+Each molecule in the sample is then scanned by the EM. This produces a series of
+maps of the visible surface of each molecule. Cryo-em only observes the exposed
+surface of  molecule. But because many molecules have been deposited in random
+orientations and they are all in roughly the same state we are able to
+reconstruct the entire molecule by piecing together many of the individual maps.
+This is done by sorting each image into groups which are similar to each other.
+These groups are then used to generate the whole 3D model. Often, the details of
+where each base comes from fitting the overall structure with a high quality
+structure from X-ray work.
+
+This process of piecing together individual images of the surface of a ribosome to
+generate a 3D model of the ribosome is current limitation of cryo-em. Right now
+we need the ribosomes to be in relatively similar states. However, this is only
+a limitation of the amiable methods of image sorting, not a theoretical limit.
+So once we get much better at sorting images from cryo-em we may be able to
+remove the restriction of having relatively similar states. This means we could
+'simply' take a sample of molecules doing translation, freeze them, image them
+with cryo-em and get pictures of all distinct conformations of the ribosome
+along the pathway. This would be a major accomplishment. There is already some
+work moving in that direction [@Bai2013]. However, it is not yet at the requite
+level of sensitivity. 
+
+We would get to see all the major states found during translation. We would
+still have to determine which movements are on pathway and which are off
+pathway. In addition, we may not see short lived states or very rare
+conformations with a simple experiment. This could be solved through
+manipulation to bias the life time of short states or the rarity of states.
+
+Peter Moore does not discuss doing something similar as this with X-ray work
+because X-ray requires all molecules in a single or very few conformations
+located in a crystal. This excludes the possibility of getting the number of
+states that would be present during the full translation cycle. 
+
+However, as Tinoco et al. point out it is possible to detect scattering from a
+single molecule [@Tinoco2011]. This opens the tantalizing possibility of doing
+single molecule imaging of ribosomes under going translation. Potentially this
+could provide similar, but higher resolution, data to cryo-em. It may even be
+possible to image a single molecule repeatedly to watch one molecule across the
+entire pathway. I suspect, however, that the technical challenges for this
+method are much higher than cryo-em. But it would be extremely informative (and
+cool).

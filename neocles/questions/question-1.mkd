@@ -1,3 +1,15 @@
-# Question 1 #
+# Diagram of States of a Molecular Machine #
 
-My answer to question 1.
+> First, molecular machines, like their man-made, macroscopic counterparts, pass
+> sequentially through well-defined states in a cyclic and repetitive fashion to
+> carry out their functions. Pick two different molecular machines, one of which
+> should be the ribosome, the other a molecular machine of your choice, and make
+> diagrams to show the states (in functional order) that each passes through to
+> carry out the particular function and explain what distinguishes each state
+> from the others. Also provide a list with a little more explanation describing
+> each state and explaining what happens in the transition between each pair of
+> states.  You can do this on paper or electronically using a drawing program
+> and pasting in your drawings
+
+
+

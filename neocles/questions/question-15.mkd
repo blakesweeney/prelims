@@ -1,0 +1,8 @@
+# Free Energy of Elongation #
+
+> Peter Moore maintains that no Brownian ratchet mechanism is needed to explain
+> the directionality of the elongation cycle because ∆G° = -32 kJ/mol for
+> peptide bond formation using aminoacyl tRNA donors. Show where this number
+> come from by writing out the reaction and calculating the free energy change
+> from chemical data. Show how to calculate it. (Hint: what kinds of bonds are
+> made and what kinds of bonds are broken in this reaction?)

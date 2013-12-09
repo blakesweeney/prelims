@@ -1,0 +1,14 @@
+# Energy Usage of Molecular Machines #
+
+    A third reason for using this term is that molecular machines consume energy
+    stored in a chemical fuel. Unlike macroscopic machines, however, molecular
+    machines convert the stored chemical energy (potential energy) directly into
+    work, without first converting the energy to heat (as in internal combustion or
+    steam engines) or electricity (as in electric motors). For two different
+    molecular machines, one of which should be the ribosome, identify the fuel
+    molecule(s) involved (for the ribosome there is more than one type!) and
+    calculate how many fuel molecules are consumed for each successful cycle of the
+    machine. What assumptions are you making in calculating this number? Then
+    Calculate the amount of free energy released by consuming this fuel and compare
+    to the physical work (for displacing objects) and chemical work (for doing
+    reactions) where this is available for your two machines. 

@@ -1,0 +1,5 @@
+# Definition of a Brownian Ratchet and Alternative Theories #
+
+> Define more precisely what a Brownian ratchet mechanism involves. What is the
+> alternative theory about how the energy released by GTP hydrolysis is used to
+> drive translation? 

@@ -1,0 +1,8 @@
+# Idealized Mechanical Parts #
+
+> Three types of idealized mechanical parts that can be analyzed mathematically
+> and which can be combined to model different kinds of molecular machines (or
+> parts thereof) are 1) masses 2) dashpots and 3) springs. How would you combine
+> these idealized parts to model how tRNA is accommodated into the A-site of the
+> large subunit after GTP is hydrolyzed by EF-Tu and EF-Tu releases the tRNA?
+

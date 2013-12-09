@@ -1,0 +1,10 @@
+# Thermal Forces on Nano-Machines #
+
+> Peter Moore states that at 310K, the average thermal force experienced by a
+> 70S ribosome, due to collisions with the surrounding solvent molecules, is
+> ~270 pNt (pico-Newtons). Explain how to calculate this force using basic
+> molecular biophysics, summarized in the book "Mechanics of Motor Proteins and
+> the Cytoskeleton." Carry out the calculations on this spreadsheet starting
+> with the data that is already there and adding additional calculations.
+> Calculate average thermal forces for other size particles listed on the
+> [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AoEMT6hLl5eZdFZtemFSTWM0em9ZdU1LU2Y5c2FyQkE#gid=2).
