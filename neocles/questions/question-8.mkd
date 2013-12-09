@@ -1,4 +1,26 @@
 # Biased Random Walk #
 
 > Peter Moore in his review uses the term “biased random walk.” Provide a
-> definition here and give examples (at least 3!) from the ribosome: 
+> definition here and give examples (at least 3!) from the ribosome.
+
+To define biased random walk I will first define a random walk then move on to
+what a biased random walk is. A random walk is a set of motions that occur
+randomly. In biology this is used to refer to a motion that has no dependency on
+previous steps, this is called memoryless. That is to say simply because it has
+been moving left for 10 seconds does not mean it is likely to keep moving left.
+It could just as easily go right as left. On average, a random walk will get you
+no where. One molecule may travel very far from the origin in a random walk, but
+averaging positions across many molecules will show no net movement.
+
+A biased random walk is a walk which is still memoryless but has a net tendency
+to move in one direction. So on average the molecules may move left but an
+individual molecule may or may not move left. In addition, when the individual
+motions there still has no dependency on previous motions. So simply moving
+left several times does not provide any inertia to keep moving left.
+
+There are several examples of this type of biased random walk in the function of
+the ribosome. Three are:
+
+1.  Movement of the charged tRNA into the A site (accommodation).
+2.  Movement of the A site tRNA to the P site.
+3.  Movement of the P Site tRNA to the E Site.
