@@ -1,8 +1,66 @@
 # Free Energy of Elongation #
 
 > Peter Moore maintains that no Brownian ratchet mechanism is needed to explain
-> the directionality of the elongation cycle because ∆G° = -32 kJ/mol for
-> peptide bond formation using aminoacyl tRNA donors. Show where this number
-> come from by writing out the reaction and calculating the free energy change
-> from chemical data. Show how to calculate it. (Hint: what kinds of bonds are
-> made and what kinds of bonds are broken in this reaction?)
+> the directionality of the elongation cycle because 
+> $\dG = -32 \frac{\mathrm{kJ}}{\mathrm{mol}}$ for peptide 
+> bond formation using aminoacyl tRNA donors. __Show
+> where this number come from by writing out the reaction and calculating the
+> free energy change from chemical data. Show how to calculate it.__ (Hint: what
+> kinds of bonds are made and what kinds of bonds are broken in this reaction?)
+
+This number is computed by determine the free energy difference of the substrate
+and the product of the reaction. The reaction in question is:
+
+\[
+\mathrm{tRNA}\bullet{}\mathrm{AA} + \mathrm{Polypeptide} \longrightarrow{} \mathrm{tRNA} + \mathrm{AA}\bullet{}\mathrm{Polypeptide}
+\]
+
+This reaction breaks the ester bond linking the tRNA and AA and produces a new
+peptide bond between the AA and growing polypeptide chain. Thus to compute the
+difference in free energy we get the difference between the produce and
+substrate $\g$
+
+\[
+\dG = \g{}_{p} - \g{}_{s}
+\]
+
+I now assume that there is no entropy change between the products and reactants.
+This changes the equation to:
+
+\[
+\dH = \h{}_{p} - \h{}_{s}
+\]
+
+The main difference between substrate and product is the breaking of the ester
+bond and formation of the peptide bond. To calculate this $\dH$ I would need the
+$\dH$ of each bond. Looking at
+[http://www.cem.msu.edu/~reusch/OrgPage/bndenrgy.htm]() I find:
+
+$$
+\begin{array}{rcl}
+\dH_{amide}   & = & 110 \\
+\dH_{peptide} & = & 86 \\
+\end{array}
+$$
+
+Leading to:
+
+$$
+\begin{array}{rcl}
+\dH & = & \h{}_{p} - \h{}_{s} \\
+\dH & = & \h{}_{peptide} - \h{}_{amide} \\
+\dH & = & 86 - 110 \\
+    & = & 24
+\end{array}
+$$
+
+This is wrong. However, reading the Moore review [@Moore2012] he says:
+
+\begin{quote}
+free energy released when peptide bonds are synthesized using aminoacyl tRNAs as donors
+\end{quote}
+
+which indicates that there is some dependency on the donor (also his citation
+points to a text book I can't find a copy of). I have no way of calculating this
+exactly then. So this is my best effort at calculating the value, but I know
+it's wrong.
