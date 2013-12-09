@@ -2,14 +2,40 @@
 
 > First, molecular machines, like their man-made, macroscopic counterparts, pass
 > sequentially through well-defined states in a cyclic and repetitive fashion to
-> carry out their functions. Pick two different molecular machines, one of which
+> carry out their functions. __Pick two different molecular machines, one of which
 > should be the ribosome, the other a molecular machine of your choice, and make
 > diagrams to show the states (in functional order) that each passes through to
 > carry out the particular function and explain what distinguishes each state
 > from the others. Also provide a list with a little more explanation describing
 > each state and explaining what happens in the transition between each pair of
-> states.  You can do this on paper or electronically using a drawing program
+> states.__  You can do this on paper or electronically using a drawing program
 > and pasting in your drawings
 
+## Translocation in the Ribosome ##
 
+1.  This is the unrotated state of the ribosome with a tRNA/polypeptide in the
+    A-site and a tRNA in the P-site.
 
+2.  Here the 16S has rotated and the tRNAs enter a hybrid state. In the hybrid
+    state the LSU end of A-site tRNA is in the P-site and the P-site tRNA is in
+    the E-site.
+
+3.  Here EF-G has bound with GTP to the ribosome in the hybrid state.
+
+4. Here EF-G has canalized GTP to GDP while the ribosome stays in the hybrid
+   state.
+
+5. Here EF-G and Pi has been released and the tRNAs have moved fully into the P
+   and E sites.
+
+## ATP Synthase ##
+
+1. This is the initial state. The first protomer is empty, the second has ATP
+   and the final one contains ADP + Pi
+
+2. Here the central stalk has rotated to the second protomer. This causes the
+   first to enter a state where it binds ADP + Pi loosely, the second then
+   releases the bound ATP. The final one catalyzes the reaction of ADP + Pi to ATP.
+
+3. Here the stalk rotates again. This makes the first protomer catalytic, the
+   second then binds ADP + Pi and the third is empty.

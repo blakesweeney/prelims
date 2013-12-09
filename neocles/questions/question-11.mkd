@@ -6,3 +6,20 @@
 > these idealized parts to model how tRNA is accommodated into the A-site of the
 > large subunit after GTP is hydrolyzed by EF-Tu and EF-Tu releases the tRNA?
 
+I would model the process of accommodation as mass on a spring in parallel with
+a dashpot. This is a simple model and represents the tRNA being deformed, in a
+viscous medium. The equation representing force in this case is:
+
+\[
+F = m \frac{d^2\mathrm{x}}{d\mathrm{t}^2} + \gamma \frac{d\mathrm{x}}{dt} + \kappa \mathrm{x}
+\]
+
+where $m$ is the mass, $\gamma$ is the friction constant and $\kappa$ is the
+spring constant of the tRNA. 
+
+This represents the deformation of the tRNA. I choose this because accommodation
+is basically the deformation then reformation of tRNA as it enters the A-site.
+The EF-Tu serves to help prime the tRNA to move into the A-site. A more
+sophisticated model could be built using the models of kinesin movement. I would
+choose kinesin because it too is a powerstroke machine, however, I don't
+understand those models in detail so I can't propose them myself.

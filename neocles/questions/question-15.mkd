@@ -28,7 +28,7 @@ I now assume that there is no entropy change between the products and reactants.
 This changes the equation to:
 
 \[
-\dH = \h{}_{p} - \h{}_{s}
+\dG = \h{}_{p} - \h{}_{s}
 \]
 
 The main difference between substrate and product is the breaking of the ester

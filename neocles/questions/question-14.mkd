@@ -3,3 +3,78 @@
 > Define more precisely what a Brownian ratchet mechanism involves. What is the
 > alternative theory about how the energy released by GTP hydrolysis is used to
 > drive translation? 
+
+A Brownian ratchet mechanism is one where the random motions of a molecule are
+rectified into directed motions. This rectification is how random motion is
+turned into directional motion. The rectification occurs by using energy to
+reset the machine. The energy is not used to push or pull like a macroscopic
+machine, but instead to select the correct type of motion.
+
+An alternative theory is that of a power-stroke machine. These machines function
+by creating mechanical tension which is then released to create directional
+motion. Energy is used to create or release tension, not to rectify movement.  In
+these machines there is still random motion however this motion is biased by
+the release of tension. It does not take much force, only a few pico-newtons to
+bias movement in a particular direction. %CITE
+
+It is important to note that in both mechanisms there is random motion and it
+helps drive both types of machines. The key difference is how that random motion
+is biased. In the first it is done through rectification, while in the second
+mechanical force is used.
+
+The question of how translation is driven is imprecise. There are several
+different steps in translation and all may be driven by different steps.  I will
+ignore initiation and termination for now, because we have few structures from
+these steps, and just discuss elongation/translocation. It is possible that the
+mechanisms we see in elongation/translation are not the ones used in other
+steps. However without more information about those steps it is hard to propose
+any hypothesis. 
+
+In elongation/translation there are 4 different machine steps that need to
+occur. First is accommodation of the tRNA/EF-Tu into the ribosome. Secondly, is
+movement of the tRNA from the A-site to P-Site driven by EF-G, them P-Site to
+E-Site and finally leaving the E-Site. From structures we know that
+accommodation and movement from the A-site to P-site are speed up with protein
+factors [@Moore2012]. 
+
+I don't know of any work that looks at movement from P to E or E off the
+ribosome, but I also don't know of any work that rules out an effect from
+protein factors on these steps. It is possible that energy is used here, or it
+could be these steps are part of moving from the A site to P site and they can't
+be separated. For now I will treat them as part of the movement from A site to P
+site. It is reasonable to treat them this way as there are no separate protein
+that drive these processes. I would like to point out that it is still possible
+these steps are effected by EF-G however.
+
+This leaves us with two distinct steps to consider. First is accommodation, or
+the movement of the tRNA into the A-site as driven by EF-Tu. The second is the
+movement of the A-site tRNA to the P-site driven by EF-G, I will refer to this
+as translocation. I will argue that accommodation is a power-stroke process
+while translocation is a Brownian ratchet.
+
+Accommodation is a power-stroke mechanism. My argument for this is very simple.
+Power-stroke machines work by building some tension, which is then released to
+drive directional motion. This is precisely what happens with tRNA. The
+tRNA/EF-Tu complex binds the ribosome and if it is the cognate tRNA it is
+deformed. This causes EF-Tu to cleave GTP and release from the tRNA. This tRNA
+the relaxes to an unstrained state and in doing so moves into the A-site. Here
+we see tension being created through the binding of tRNA to the ribosome. This
+then released by GTP cleavage and the release creates a directional movement.
+
+On the hand, translocation is a Brownian ratchet. In this process EF-G binds to
+the ribosome. In the ribosome the tRNA in the A-site alternates between being
+bound to the A-site and hybrid state where the LSU end is in the P-site and the
+SSU end is still in the A-site. This motion happens in the absence of any factor
+and is driven by random motion, however it may be sped up by EF-G
+[@Belardinelli2013]. EF-G cleaves a GTP which causes a domain to move down into
+the A-site. This then biases motions to make the hybrid state more likely. With
+the hybrid state stabilized it is possible for the tRNA to diffuse into the
+P-site. Because the protein is in the A-site the tRNA can not occupy it
+leading to translocation. 
+
+This mechanism does not have the key characteristics of a power-stroke, namely
+creation and release of mechanical tension. However it does have several
+characteristics of Brownian ratchets. That is biased movements being generated
+by energy. This does not exclude some of the energy from GTP hydrolysis being
+used for other things however. For example, it's possible the energy for
+hydrolysis is used to disrupt tRNA/SSU contacts to promote movement.

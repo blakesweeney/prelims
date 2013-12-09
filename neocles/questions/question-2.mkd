@@ -5,13 +5,26 @@
 > on which they act, just as macroscopic machines do. In other words, they do work
 > on these objects so that they are displaced from their original locations at the
 > start of the cycle to a different location relative to the machine upon
-> completion of a finite number of cycles of the machine. For two different
+> completion of a finite number of cycles of the machine. __For two different
 > molecular machines, one of which should be the ribosome, describe the directed
 > motions each machine gives rise to. Be sure to include: How many cycles of the
 > machine are necessary to displace each particular object? How far does the
 > object move? Sketch out what you would need to measure to calculate the energy
-> needed to move the object, i.e. the work done on the object by the machine? 
+> needed to move the object, i.e. the work done on the object by the machine?__
 
 ## The Ribosome ##
 
-The ribosome
+The ribosome's machine functions are the movement of tRNA and mRNA across it's
+surface. In detail this is accommodation, movement from the A to P site, then P
+to E and finally exiting the ribosome. A tRNA requires 1 accommodation step and
+3 elongation steps to cycle through the ribosome. The tRNA moves roughly 20nm
+from one side of the ribosome to the other. To compute the work we would need to
+know the force exerted at each step as well as the size of each step.
+
+## The ATP Syntase ##
+
+The machine function is the rotation of the central stalk. The syntase takes ADP
++ Pi and produces ATP. It takes 3 cycles to go from empty to ADP + Pi then to
+ATP and back to empty. The object itself does not move, instead the central
+stalk moves. To compute the work done I would need to know the distance the
+stalk rotates as well as the force used and the radius of the syntase.

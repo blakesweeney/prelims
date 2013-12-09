@@ -4,4 +4,50 @@
 > nano- and macroscopic machines are different. Give concrete examples and
 > illustrations (use links to illustrations, animations, etc.) to clarify and
 > illustrate your points. This is an open-ended question - I’ll be interested to
-> see what you find! 
+> see what you find!
+
+1.  Role of friction and inertia.
+
+    Friction in a macroscopic machine is a much smaller factor than in a
+    nano-machine. Nano-machines are dominated by friction while macroscopic machines
+    are dominated by inertia.
+
+2.  Made of physically distinct objects.
+
+    In a macroscopic machine there are
+    distinct parts. For example, in a car the steering wheel is something
+    completely separate from the wheels. They are not one continuous object. In
+    nano-machines however this is not true. Often all the parts are one continuous
+    molecule and they can't be easily separate without breaking the molecule in
+    question.
+
+3.  Work on differences in energy.
+
+    A macroscopic machine works because of a heat difference or an eletrical
+    potential difference. Nanoscale machines are too small to create or maintain
+    such differences. They do not require them to function. Instead they use
+    differences in concentrations of molecules
+
+4.  Macroscopic machines have one distinct pathway to function.
+
+    This is to say that the drive shaft of a car always rotates in the same way
+    every time. We could trace the path it takes perfectly each time. There are no
+    deviations. On the other hand, a nanoscale machine does not work like this. One
+    part may travel in a slightly different path each time the machine cycles. The
+    overall pathway may be the same without the individual motions being identical.
+
+
+5.  Types of useful components.
+
+    Nanomachines don't seem to have nearly as many types components as a
+    macroscopic machine. For example there are many types of macroscopic gears.
+    Consider for example the wikipedia page on
+    [gears](http://en.wikipedia.org/wiki/Gear) [@Ikipedia]. That lists at least 16
+    different classes of gears. How many gear like parts are their in nanoscale
+    machines? The only I can think of is the ATP syntatase.
+
+6. Variety of substances used.
+
+    A molecular machine is composed of much fewer substances than a macroscopic
+    machine. For example the ribosome is protein and RNA. A car on the other hand is
+    made of at least metal, plastic, rubber, and silicon

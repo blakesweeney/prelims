@@ -9,6 +9,6 @@
 > molecule(s) involved (for the ribosome there is more than one type!) and
 > calculate how many fuel molecules are consumed for each successful cycle of the
 > machine. What assumptions are you making in calculating this number? Then
-> Calculate the amount of free energy released by consuming this fuel and compare
+> calculate the amount of free energy released by consuming this fuel and compare
 > to the physical work (for displacing objects) and chemical work (for doing
 > reactions) where this is available for your two machines. 
