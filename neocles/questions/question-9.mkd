@@ -1,10 +1,88 @@
 # Modeling Motion in the Ribosome #
 
-> Have a look at some of the movies of ribosomes produced by the Ramakrishan and
-> Steitz groups. Pick two, identify them and describe what they show. Explain
-> how these are made -- don't just use the word "morphing" -- explain what that
-> means. How are these movies useful? How can then be misleading? Are they
-> realistic? If not why not? 
-> 
-> [Steitz](http://www.yale.edu/steitz/movies.html)
-> [Ramakrishan](http://www.mrc-lmb.cam.ac.uk/ribo/homepage/mov_and_overview.html)
+> Have a look at some of the movies of ribosomes produced by the
+> [Ramakrishnan](http://www.mrc-lmb.cam.ac.uk/ribo/homepage/mov_and_overview.html)
+> and [Steitz](http://www.yale.edu/steitz/movies.html) groups. Pick two,
+> identify them and describe what they show. __Explain how these are made --
+> don't just use the word "morphing" -- explain what that means. How are these
+> movies useful? How can then be misleading? Are they realistic? If not why not?__
+
+For Steitz's videos I will discuss the one called 'Ribosome Motion Movie'. It
+concerns the differences between head motion and ratcheting can be found at:
+[http://www.youtube.com/watch?v=CvTVql-Fhd8](). This video shows very specific
+motions in the ribosome. It compares the movment of the head region of the SSU
+to the overall ratcheting movment of the SSU. The head movment involves the
+bending of the neck region to bring the head closer to the body without much
+movment in the body of the SSU. Ratcheting is the process where the SSU as a
+whole twists relative the the LSU. These are two distinct motions that often
+happen together. Head movement and ratcheting occur in translocation and can
+hapen at the same time. However, they are different things and should be
+considered seperate.
+
+The Ramakrishnan movie I will discuss is the once concerning decoding, which is
+found at:
+[http://www.mrc-lmb.cam.ac.uk/ribo/homepage/movies/New\_decoding\_minor\_musical\_opt2\_title-comp1.mov]().
+This video shows the process of decoding in the ribosome. It features the
+binding of a tRNA/EF-Tu complex to the ribosome and the release of tRNA from
+EF-Tu and entry to the ribosome.
+
+Movies like the ones linked are made via 'morphing' one structure into another.
+This process begins with two structures which define the endpoints of the motion
+to model. A program then computes a trajectory between the two states. This
+could mean simply finding the shortest distance each atom would need to move to
+get from one state to another with no concern for physical constraints. Or it
+could mean using molecular dynamics simulations to determine a realistic series
+of steps the molecule could take. From what I have seen the processes used are
+more likely a mix of the two.  There will be some relatively fixed trajectory to
+take with some minimal checking of physical constraints to ensure nothing too
+silly is generated.
+
+I couldn't find the paper where Ramakrishnan published the video I'm interested
+in so I can't see exactly what software was used. The Steitz video uses PyMol to
+do this [@Polikanov2012]. It seems there is a simple `morph` command
+[http://pymolwiki.org/index.php/Morph]() which can do this. Neat. Looking around
+for a citation as to how this works has produced nothing. I think we'll need to
+email authors to find out the details of this method.
+
+Movies such as these are useful for certain purposes but very misleading and not
+realistic. I will begin with why they are misleading. Most motions a molecule is
+undergoing are due to thermal noise [@Moore2012]. These motions are randomly
+directed and may or may not contribute to the overall function. However, the
+movies show simple, clean, directed motions. There is a complete absence of
+random motion that has nothing to do with process being studied. The thermal
+motions also occur on a much faster time scale than the motions being shown here
+[@Moore2012]. This means that a physical accurate movie would show lots of
+twitching and bouncing around with only sometimes the motion we are interested
+in.
+
+In addition, the movie gives a sense of order that does not exist. For example
+in the deconding video we see a L7/L12 'reach out' for the tRNA/EF-Tu complex as
+it trying to pull it in. This is not realistic at all. Those proteins are
+constantly flopping around there is no directed motion toward the EF-Tu complex.
+Also each step in this video occurs sequentially. We don't go from diffsing
+toward the ribosome then away then back again. Then tRNA hitting the wrong part
+of the ribosome for a bit then falling off. Then L7/L12 flopping out then proper
+binding occuring, etc. Even though the process I described may be more likely
+than the clean one shown there.
+
+However, physical realism is not always useful. We are trying to understand the
+function of the ribosome so to do this we need to simplify the process as much
+as possible to remove distractions. We need to ignore motions that have nothing
+to do with function to get the basic understanding of the process. For example,
+if we had a physically realistic movie and showed it to a student not well
+versed in biophysics and ribosome function it would be useless to her. She will
+not know what motions are important or which are just noise. It would be much
+more useful to present the simplified movie which only shows the motions of
+interest. Such as showing the Steitz movie when discussing ratcheting.
+
+Physical realism can be useful in other situations. If we want to create better
+molecular dynamics simulations then a physically realistic movie could be
+useful. Such a movie would provide data for modelers to use in building their
+simulations. 
+
+So the movies are misleading in that they do not present what is actually
+happening because they do not include the realistic motions. However, this is
+useful because the realistic picture has so many random motions that it is not
+useful for understanding the function. Thus the question of useful depends on
+your goals, while the realism and misleading questions can be objectively
+answered.
