@@ -17,4 +17,10 @@ going straight. If the steering wheel had no effect on the motion of the wheels
 then we would say they are uncoupled. This would have seriously detrimental
 effects on my ability to travel.
 
-Molecular machines are not perfectly coupled. E
+Molecular machines are not perfectly coupled. We will examine the case of
+movements in the SSU. If movements of the head and body were coupled then every
+time the head moved the body would move as well. However, examinations of
+cryo-em structures has shown that these motions are correlated but only loosely
+coupled [@Rodnina2011a]. This means that they generally occur together but they
+do not necessarily happen together and do not occur in some fixed order. This
+proves they are not coupled since one can happen without the other.
