@@ -33,7 +33,10 @@ correct magnitude.
 
 I don't know what you mean by using $F = 2PE / l$. The units there do not work
 out. If PE is bond energy then it would be in J then F would be in J/m, which is
-not force.
+not force. Maybe you mean that F there is the force constant, which is normally
+written as $\kappa$. That does have the correct units. In this case it would be
+\num[round-precision=3,round-mode=figures,scientific-notation=true]{7272727}
+$\frac{\mathrm{J}}{\mathrm{nm}}$ assuming a bond length of 110 pm. 
 
 Here I can see the gravitational force is tiny compared to friction. Consider
 the frictional force on a complete ribosome is roughly 270pN while the
