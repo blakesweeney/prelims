@@ -89,7 +89,13 @@ list.
 19. Switches
 
     The entire field of riboswitches would indicate that their are switches
-    [@Henkin2008]. These however are one use components.
+    [@Henkin2008]. These however are one use components. There are multi-use 
+    switch like structures used in attenuation however [@Henkin2008].
+
+
+20. Thermosensors
+
+    These exist at the nanoscale in the form of riboswitches [@Klinkert2009].
 
 I would like to point out that I'm not sure how good of an idea it is to compare
 nanoscale objects or components to macroscopic components. I would suggest
