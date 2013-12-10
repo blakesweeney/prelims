@@ -69,17 +69,17 @@ These groups are then used to generate the whole 3D model. Often, the details of
 where each base comes from fitting the overall structure with a high quality
 structure from X-ray work.
 
-This process of piecing together individual images of the surface of a ribosome to
-generate a 3D model of the ribosome is current limitation of cryo-em. Right now
-we need the ribosomes to be in relatively similar states. However, this is only
-a limitation of the amiable methods of image sorting, not a theoretical limit.
-So once we get much better at sorting images from cryo-em we may be able to
-remove the restriction of having relatively similar states. This means we could
-'simply' take a sample of molecules doing translation, freeze them, image them
-with cryo-em and get pictures of all distinct conformations of the ribosome
+This process of piecing together individual images of the surface of a ribosome
+to generate a 3D model of the ribosome is current limitation of cryo-em. Right
+now we need the ribosomes to be in relatively similar states. However, this is
+only a limitation of the amiable methods of image sorting, not a theoretical
+limit.  So once we get much better at sorting images from cryo-em we may be able
+to remove the restriction of having relatively similar states. This means we
+could 'simply' take a sample of molecules doing translation, freeze them, image
+them with cryo-em and get pictures of all distinct conformations of the ribosome
 along the pathway. This would be a major accomplishment. There is already some
-work moving in that direction [@Bai2013]. However, it is not yet at the requite
-level of sensitivity. 
+work moving in that direction [@Bai2013]. However, it is not yet at the
+requisite level of sensitivity. 
 
 We would get to see all the major states found during translation. We would
 still have to determine which movements are on pathway and which are off

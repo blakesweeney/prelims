@@ -28,6 +28,14 @@
 5. Here EF-G and Pi has been released and the tRNAs have moved fully into the P
    and E sites.
 
+6. Here the E site tRNA has fallen out.
+
+7. Here EF-TU/GTP + tRNA has bound and is sampling the A site
+
+8. EF-Tu hydrolyzes GTP and leaves allowing the tRNA to enter the A site fully.
+   The next step is for the polyermase reaction to occur which brings it back to
+   step 1.
+
 ## ATP Synthase ##
 
 1. This is the initial state. The first protomer is empty, the second has ATP
