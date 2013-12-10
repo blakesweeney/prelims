@@ -13,14 +13,15 @@ ways this statement can be interpreted. I will discuss them below.
 
 If by 'like flywheels' you mean things which function to store energy then the
 answer is clearly yes. Consider ATP for example. It clearly is used to store
-energy in the cell.
+energy in the cell. If there were no energy storage it is hard to image how the
+cell could function.
 
 On the other hand, 'like flywheels' could mean something which uses some sort of
 mechanical process to store energy. This is also true. Examples of such a device
 include the tension in the tRNA that is used to drive motion into the A site or
-the energy stored in the head of kinesin that is released as a power stroke.
-Both of these are fundamentally mechanical things that store energy. Though they
-do so in a very different way than a flywheel.
+the energy stored in the head of kinesin that is released as a power stroke
+[@Howard2001].  Both of these are fundamentally mechanical things that store
+energy. Though they do so in a very different way than a flywheel.
 
 A third meaning would be 'something that stores energy using rotational
 inertia.' Here the answer is no. Friction is too strong at the nanoscale to
@@ -29,12 +30,15 @@ Examining Table \ref{table-5} we can see that a tRNA
 \num[round-precision=3,round-mode=figures,scientific-notation=true]{.00218} nm
 before it's direction is randomized. If there were a flywheel of the same
 characteristics of a tRNA it would only be able to rotate that far before
-beginning random motion.
+beginning random motion. 
 
-This randomization is because friction is so high that there is no inertia.
-Without inertia the flywheel, or any molecule will not keep moving in the
-desired direction. In addition, there is a strong thermal force which is
+This randomization is because friction is so high that there is no significant
+inertia. Without inertia the flywheel, or any molecule, will not keep moving in
+the desired direction. In addition, there is a strong thermal force which is
 randomly directed. The combination of the two means that inertia cannot be used
 to store energy as it will be quickly stripped by friction and the motion after
 some very short time will be random. A randomly moving object is not very useful
-for storing energy.
+for storing energy. If we look at the translation time we see that it is only
+1.24 picoseconds. This means we only have ballistic motion for that long before
+the thermal and frictional forces take over and produce diffusive motion. This
+indicates how strong friction and weak inertia is at this scale.

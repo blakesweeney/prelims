@@ -19,7 +19,8 @@
     completely separate from the wheels. They are not one continuous object. In
     nano-machines however this is not true. Often all the parts are one continuous
     molecule and they can't be easily separate without breaking the molecule in
-    question.
+    question. If they are multiple components they much fewer than in a
+    macroscopic machine.
 
 3.  Work on differences in energy.
 
@@ -36,7 +37,6 @@
     part may travel in a slightly different path each time the machine cycles. The
     overall pathway may be the same without the individual motions being identical.
 
-
 5.  Types of useful components.
 
     Nanomachines don't seem to have nearly as many types components as a
@@ -44,10 +44,14 @@
     Consider for example the wikipedia page on
     [gears](http://en.wikipedia.org/wiki/Gear) [@Ikipedia]. That lists at least 16
     different classes of gears. How many gear like parts are their in nanoscale
-    machines? The only I can think of is the ATP syntatase.
+    machines? I can't think of any. And of the components that exist at the
+    molecular scale there does not seem to be a huge variety in types, this though
+    could be due to our lack of understanding.
 
 6. Variety of substances used.
 
     A molecular machine is composed of much fewer substances than a macroscopic
     machine. For example the ribosome is protein and RNA. A car on the other hand is
-    made of at least metal, plastic, rubber, and silicon
+    made of at least metal, plastic, rubber, and silicon. And there are several
+    different types of each substances. At the molecular scale most things are just
+    protein and some RNA.

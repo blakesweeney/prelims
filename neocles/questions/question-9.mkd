@@ -38,11 +38,13 @@ take with some minimal checking of physical constraints to ensure nothing too
 silly is generated.
 
 I couldn't find the paper where Ramakrishnan published the video I'm interested
-in so I can't see exactly what software was used. The Steitz video uses PyMol to
-do this [@Polikanov2012]. It seems there is a simple `morph` command
-[http://pymolwiki.org/index.php/Morph]() which can do this. Neat. Looking around
-for a citation as to how this works has produced nothing. I think we'll need to
-email authors to find out the details of this method.
+in so I can't see exactly what software was used. Judging by how the tRNA tries
+to fit several times it is more complex than the tools used in the Steiz video.
+The Steitz video uses PyMol to do this [@Polikanov2012]. It seems there is a
+simple `morph` command [http://pymolwiki.org/index.php/Morph]() which can do
+this. Neat. Looking around for a citation as to how this works has produced
+nothing. I think we'll need to email authors to find out the details of this
+method.
 
 Movies such as these are useful for certain purposes but very misleading and not
 realistic. I will begin with why they are misleading. Most motions a molecule is
