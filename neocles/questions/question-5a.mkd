@@ -1,9 +1,20 @@
 # Coupling in Molecular Machines #
 
 > The previous questions concern how nano- and macro-scopic machines are
-> similar. Let’s now think about how they are different. First, let’s start with
-> something Peter Moore says: “The motions of the components of a macroscopic
-> machine are perfectly coupled.” Explain what this means and discuss whether
+> similar. Let's now think about how they are different. First, let's start with
+> something Peter Moore says: "The motions of the components of a macroscopic
+> machine are perfectly coupled." __Explain what this means and discuss whether
 > the same is true of a nano-scale machine like the ribosome. What experiments
-> and or calculations Inform your answer (i.e. what is the evidence for
-> concluding one way or the other)? 
+> and or calculations inform your answer (i.e. what is the evidence for
+> concluding one way or the other)?__
+
+Coupling means that motion on one region drives motion in another. For example,
+when I turn my car steering wheel to the right the wheels turn right and then my
+car turns right. Perfect coupling means that every time the steering wheel turns
+so do the wheels and thus the whole car. If it was not perfectly coupled then
+sometimes when I turn the wheel right the car may go left, or up, or even keep
+going straight. If the steering wheel had no effect on the motion of the wheels
+then we would say they are uncoupled. This would have seriously detrimental
+effects on my ability to travel.
+
+Molecular machines are not perfectly coupled. E

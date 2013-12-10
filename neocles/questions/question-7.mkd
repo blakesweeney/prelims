@@ -17,7 +17,48 @@
 > take tRNA to travel this distance just by diffusion?__ __How does that time
 > compare to the time for one elongation step?__ __Is it fast enough for
 > translation (compare to time to add one amino acid to protein chain)__
+>
+> Ballistic vs. diffusive motion -- __What is the difference? Over what period of
+> time is the motion of a molecule "inertial" and how can you calculate this
+> characteristic time__ (Hint: it is called the "translation time constant"). Use
+> the spreadsheet to calculate this time for different particles. 
+
+## Diffusion Scaling ##
 
 Net distance moved does not scale linearly with time as it does for directed
 motion. Because diffusion is a random walk, your net distance may not be
 proportional to the time.
+
+## General Observations of Diffusion ##
+
+For a plot of distance versus time for each molecule please examine Figure
+\ref{fig:diffused}. This figure shows the distance diffused in nanometers for
+each molecule. As we can see the distance is not linear with time. In addition,
+it seems to decrease exponentially with mass. This can be seen by considering
+the end points of all molecules. 
+
+## Diffusion as the Mechanism of Elongation ##
+
+It takes roughly 100ns for the tRNA to diffuse the 5nm between the A site and P
+site. It has been measured to take several order of magnitude higher
+[@Moore2012] for this process to occur, indicating this process could be
+diffusive.
+
+## Ballistic vs Diffuse motion ##
+
+Ballistic motion is the everyday motion we are familiar with. This is
+essentially motion due to inertia through some medium, like a baseball through
+the air. This is a fairly linear regular motion. Diffusive motion is motion due
+to thermal energy in the medium. This motion is a random walk. It has no inertia
+and is not at all what we are used to. 
+
+Molecules have a brief time when they have ballistic motion. This time is known
+as the translation time constant and is known as $\tau$. It is calculated using
+the following equation:
+
+\[
+\tau = \frac{m}{\gamma}
+\]
+
+Where $\gamma$ is the frictional coefficient and $m$ is mass. This value has
+been computed for several molecules in Table \ref{table-5}.

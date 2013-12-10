@@ -10,3 +10,97 @@
 > simulation or created through nano-engineering modular parts out of RNA, DNA,
 > or Protein, and used them to build new molecular machines. Open-ended question
 > to search the literature! 
+
+There are many different types of components in macroscopic machines. Below is a
+partial list. Some of these may have analogues nanoscale components, those that
+do have comments about them, while those that do not have no comments in the
+list.
+
+1. Lever
+
+    This has a nanoscale analog. As an example consider the kinesin molecule.
+    These have a small lever arm to help magnify the movement of the elastic domain.
+
+2. Hinge
+
+    This may have an example at the nanoscale. For example, looking at the video of
+    the ribosome head movements [@Polikanov2012] shows that the body remains stable
+    while the head 'bends' inward. This seems to imply something like a hinge exists
+    between the head and the body in the neck region.
+
+3. Latch
+
+4. Crank shaft
+
+5. Gear
+
+6. Wheel
+
+7. Caliper
+
+8.  Break Pad
+
+    Interestingly, there is no need for such a thing at the nanoscale. Things
+    are always braked by their viscous environment making this component 
+    unneeded.
+
+9. Piston
+
+10. Rail
+
+11. Chain
+
+12. Spokes
+
+13. Belt
+
+14. Spring
+
+    On the nanoscale all bonds are springs. In addition an entire molecule such as a
+    tRNA can be treated as a spring. This is often important in things like
+    accommodation. These are likely to be key and common parts of nano-machines.
+
+15. Axel
+
+    This may have an analogy. If we consider the rotated state of the ribosome we
+    find that the entire SSU rotates relative to the LSU. We can see this in the
+    Steiz video [@Polikanov2012]. This seems to happen around a single part of the
+    ribosome. That part is a bridge between the SSU and the LSU which could be
+    considered an axle.
+
+16. Pawls
+
+    This may have an example at the nanoscale. The recent structures of the ribosome
+    in translocation show that during translation bases from the SSU intercalate
+    into the mRNA and may act like pawls [@Zhou2013]. However, several arguments
+    have been raised against the existence of pawls at the nanoscale [@Moore2012].
+
+17. Clamp
+
+    If we think more generally as in something that keeps things attached then there
+    are clamps at the molecular scale. For example the L1 stalk could be considered
+    a clamp during translocation. This analogy may be a bit much though.
+
+18. Rotor 
+
+    There are rotor like things at the nanoscale. For example consider the ATP
+    syntase [@Frank2011] or the bacterial flagellum [@Liu2007a].
+
+19. Switches
+
+    The entire field of riboswitches would indicate that their are switches
+    [@Henkin2008]. These however are one use components.
+
+I would like to point out that I'm not sure how good of an idea it is to compare
+nanoscale objects or components to macroscopic components. I would suggest
+taking something fairly clear like the tRNA and comparing it's suspected
+macroscopic component to how it actually behaves on the nanoscale to see if the
+analogy holds up. 
+
+For example, if we find the top part of the tRNA bends downward to the upright
+part then we may say there is a hinge. We should then examine to see if there is
+a distinct region which acts like a hinge. If there is we would expect to see a
+few distortions in that region and none elsewhere due to bending. However, we
+may instead find there are distortions throughout the molecule and no one part
+looks like a hinge. In that case, we would be hard pressed to compare it to a
+macroscopic component.

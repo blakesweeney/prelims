@@ -7,7 +7,7 @@ include /Users/bsweene/.local/share/latex-mk/latex.gmk
 
 writeup.tex: figs
 
-figs: figs/properties.latex
+figs: figs/properties.latex figs/diffusion.ps
 
 questions/%.tex: questions/%.mkd
 	pandoc $< $(PANDOC_OPTS) -o $@
@@ -20,3 +20,6 @@ figs/properties.latex: bin/table2latex tmp/properties.pickle
 
 tmp/properties.csv: bin/table2csv tmp/properties.pickle
 	$^ > $@
+
+figs/diffusion.ps: bin/plot-diffusion tmp/properties.csv libs/diffusion.R
+	$^ $@

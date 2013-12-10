@@ -1,0 +1,9 @@
+#!/bin/sh
+
+csv="$1"
+lib="$2"
+save="$3"
+
+set -e
+
+R --vanilla --slave -f "$lib" --args "$csv" "$save"

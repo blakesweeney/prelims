@@ -3,7 +3,7 @@
 > Peter Moore says in his review that at the nanoscale "Frictional forces are
 > King." Do these calculations to test that statement:  Calculate the frictional
 > force (aka "drag" or "viscous force") for a water molecule, a tRNA, a 100 kD
-> protein and a 70S ribosome using this 
+> protein and a 70S ribosome using this
 > [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AoEMT6hLl5eZdFZtemFSTWM0em9ZdU1LU2Y5c2FyQkE#gid=2)
 >
 >
@@ -16,5 +16,30 @@
 > energy of 400 kJ/mole to calculate the energy of one bond and from this
 > calculate the force constant (kappa) assuming a harmonic oscillator with PE =
 > the bond energy. Approximate as F = 2PE/(bond length). See if you get numbers
-> in the range for covalent bonds on p. 11 in the book. Reflect on what you
-> learn from these calculations here.
+> in the range for covalent bonds on p. 11 in the book. __Reflect on what you
+> learn from these calculations here.__
+
+We can compute covalent forces as follows:
+
+$$
+\begin{array}{rcl}
+PE & = & 400 \frac{\mathrm{kJ}}{\mathrm{mole}} \\
+   & = & 400000 \frac{\mathrm{J}}{\mathrm{molecule}}
+\end{array}
+$$
+
+This is a bit larger than the values on p. 11 but not too much. It is of the
+correct magnitude.
+
+I don't know what you mean by using $F = 2PE / l$. The units there do not work
+out. If PE is bond energy then it would be in J then F would be in J/m, which is
+not force.
+
+Here I can see the gravitational force is tiny compared to friction. Consider
+the frictional force on a complete ribosome is roughly 270pN while the
+gravitational force is roughly $10^{-8}$pN. And even increasing it by 100,000
+with an ultracentrifuge is still tiny compared to friction. We can safely ignore
+gravity in this situation. Unless we are in an ultracentrifuge and measuring
+something that takes several hours motion will be unaffected by gravity.
+However, the frictional force is nowhere near the covalent force meaning the
+molecules cannot be pulled apart because of friction.
