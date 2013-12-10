@@ -10,14 +10,14 @@
 For Steitz's videos I will discuss the one called 'Ribosome Motion Movie'. It
 concerns the differences between head motion and ratcheting can be found at:
 [http://www.youtube.com/watch?v=CvTVql-Fhd8](). This video shows very specific
-motions in the ribosome. It compares the movment of the head region of the SSU
-to the overall ratcheting movment of the SSU. The head movment involves the
+motions in the ribosome. It compares the movement of the head region of the SSU
+to the overall ratcheting movement of the SSU. The head movement involves the
 bending of the neck region to bring the head closer to the body without much
-movment in the body of the SSU. Ratcheting is the process where the SSU as a
-whole twists relative the the LSU. These are two distinct motions that often
+movement in the body of the SSU. Ratcheting is the process where the SSU as a
+whole twists relative the LSU. These are two distinct motions that often
 happen together. Head movement and ratcheting occur in translocation and can
-hapen at the same time. However, they are different things and should be
-considered seperate.
+happen at the same time. However, they are different things and should be
+considered separate.
 
 The Ramakrishnan movie I will discuss is the once concerning decoding, which is
 found at:
@@ -58,13 +58,13 @@ twitching and bouncing around with only sometimes the motion we are interested
 in.
 
 In addition, the movie gives a sense of order that does not exist. For example
-in the deconding video we see a L7/L12 'reach out' for the tRNA/EF-Tu complex as
+in the decoding video we see a L7/L12 'reach out' for the tRNA/EF-Tu complex as
 it trying to pull it in. This is not realistic at all. Those proteins are
 constantly flopping around there is no directed motion toward the EF-Tu complex.
-Also each step in this video occurs sequentially. We don't go from diffsing
+Also each step in this video occurs sequentially. We don't go from diffusing
 toward the ribosome then away then back again. Then tRNA hitting the wrong part
 of the ribosome for a bit then falling off. Then L7/L12 flopping out then proper
-binding occuring, etc. Even though the process I described may be more likely
+binding occurring, etc. Even though the process I described may be more likely
 than the clean one shown there.
 
 However, physical realism is not always useful. We are trying to understand the
