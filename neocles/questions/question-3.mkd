@@ -3,12 +3,40 @@
 > A third reason for using this term is that molecular machines consume energy
 > stored in a chemical fuel. Unlike macroscopic machines, however, molecular
 > machines convert the stored chemical energy (potential energy) directly into
-> work, without first converting the energy to heat (as in internal combustion or
-> steam engines) or electricity (as in electric motors). For two different
+> work, without first converting the energy to heat (as in internal combustion
+> or steam engines) or electricity (as in electric motors). __For two different
 > molecular machines, one of which should be the ribosome, identify the fuel
 > molecule(s) involved (for the ribosome there is more than one type!) and
-> calculate how many fuel molecules are consumed for each successful cycle of the
-> machine. What assumptions are you making in calculating this number? Then
-> calculate the amount of free energy released by consuming this fuel and compare
-> to the physical work (for displacing objects) and chemical work (for doing
-> reactions) where this is available for your two machines. 
+> calculate how many fuel molecules are consumed for each successful cycle of
+> the machine. What assumptions are you making in calculating this number? Then
+> calculate the amount of free energy released by consuming this fuel and
+> compare to the physical work (for displacing objects) and chemical work (for
+> doing reactions) where this is available for your two machines.__
+
+
+## The ribosome ##
+
+1. The fuel molecules are GTP and the aminoacyl tRNA's.
+
+2.  Each successful cycle, that is each GTP uses 4 GTP's and 1 aminoacyl tRNA.
+    I'm defining cycle as everything that is needed for a tRNA to enter the
+    ribosome and go through all steps before then leaving. 
+
+    I'm assuming that the ribosome functions perfectly. That is does not
+    hydrolyze a GTP and then do nothing. Or that the tRNA's not fall off the
+    ribosome on their own. In addition, I assume that accommodation works 
+    correctly.
+
+3. The free energy released roughly $-12 \frac{kJ}{mol}$ for the GTP and 
+$-32 \frac{kJ}{mol}$ for the aminoacyl tRNA.
+
+## ATP syntase ##
+
+1. The fuel are hydrogen ions and ADP + Pi.
+
+2.  Each cycle uses 3 hydrogen molecules and three sets of ADP + Pi. 
+
+    I assume that the motor is processive. That it does not make mistakes such
+    as turning the wrong way or allowing a hydrogen through without turning.
+
+3. This data is not available as far as I can see.
