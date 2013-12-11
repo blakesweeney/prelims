@@ -1,14 +1,13 @@
 # Halophiles #
 
 Halophiles are organisms that are adapted to high salt concentrations. This
-adaptation is seen in many branches of life.
-
-I will only focus on bacteria, however, I would like to say there is a great
-deal of work on this subject in Archaea. In fact, we have many structures of
-Archaeal large ribosomal subunits (LSU) [@Evers1994], [@Hansen2003], [@Klein2001a],
-[@Schmeing2005]. In addition, there has been quite a bit of work on the biology
-of these organisms. However that is not the focus of this question so I will
-ignore it. I will instead examine work in bacteria.
+adaptation is seen in many branches of life. I will only focus on bacteria,
+however, I would like to say there is a great deal of work on this subject in
+Archaea. In fact, we have many structures of Archaeal large ribosomal subunits
+(LSU) [@Evers1994], [@Hansen2003], [@Klein2001a], [@Schmeing2005] to name a few.
+In addition, there has been quite a bit of work on the biology of these
+organisms. Since that is not the focus of this question so I will ignore it. I
+will instead examine work in bacteria.
 
 Some bacteria adapt to high external salt by increasing the concentration of
 internal ions such as potassium (\K) [@Oren2002]. Doing so requires a series of
@@ -24,8 +23,10 @@ that occur in protein structure to predict analogous changes at a more detailed
 level. Finally, I will look at distinct source of data. That is the literature
 on the effects of ion concentration on RNA structure and stability.  This
 question has been addressed at length in order to better understand in vitro
-folding and structure studies.  (I'd like to point out that it hurts not to cite
-a bunch of reviews in an introduction like this.)
+folding and structure studies. It is an important source of insight for
+questions about RNA structure in high salt. The normally artificial conditions
+studied here may be physiological in these extermophiles. (I'd like to point
+out that it hurts not to cite a bunch of reviews in an introduction like this.)
 
 ## Ribosomes ##
 
@@ -40,19 +41,31 @@ ribosomes to bind mRNA.
 These studies indicate that ribosomes are very sensitive to negative charges.
 This could be because of an excess of positive charges on the surface of the
 molecules, or at least increase of positive charges near the anti-Shine Dalgrano
-sequence.
+sequence. This suggests changes in bound molecules or modifications to the RNA.
+mRNA is not heavily modified but the ribosome is. So any modifications would
+take place in the rRNA. 
+
+Alternatively, there could be no modifications to the rRNA and instead the
+increase in negative ions simply strips off the positive ions that are shelding
+the charge phosphate backbones from each other. This would then make it harder
+for RNA molecules to bind each other.
+
+This high level picture of the ribosome is not enough to make concrete
+suggestions for structural changes. We need to explore more detailed studies to
+do so. Sadly, I was not able to find such detailed work in ribosomes. However,
+there is work on protein that we can reference.
 
 ## Proteins ##
 
-Key work in the field of protein adaptation to pressure includes the work by
-Paul *et al*. In this work the authors did a comparative analysis of genomes
-from halophiles and related nonhalophilic species across both Archaea and
-bacteria. They studied questions of both changes in the genome composition and
-protein composition. I will only discuss the changes in proteins. Proteins were
-found to have fewer hydrophobic residues, fewer helices and more acidic
-residues [@Paul2008]. A similar study which examined the genome of \emph{Salinbacter
-ruber} showed an increased amount of acidic residues as well. Both studies show
-decreased amounts of basic residues.
+Key work in the field of protein adaptation to ions includes the work by Paul
+*et al*. In this work the authors did a comparative analysis of genomes from
+halophiles and related nonhalophilic species across both Archaea and bacteria.
+They studied questions of both changes in the genome composition and protein
+composition. I will only discuss the changes in proteins. Proteins were found to
+have fewer hydrophobic residues, fewer helices and more acidic residues
+[@Paul2008]. A similar study which examined the genome of \emph{Salinbacter
+ruber} showed an increased amount of acidic residues as well [@Mongodin2005].
+Both studies show decreased amounts of basic residues.
 
 Can these changes be replicated in RNA? One way would be to change the types of
 modifications to RNA. It would be possible to add acidic modifications to the
@@ -70,7 +83,9 @@ statements about sensitivity to chloride ions. One possible explanation is that
 the sensitivity to chloride ions was detected in \emph{Vibrio costicola}, an
 organism that does not concentrate \K{} ions but instead uses organic solutes.
 This is very different from \emph{Salinbacter ruber} which does increase it's
-internal potassium concentration [@Oren2002].
+internal potassium concentration [@Oren2002]. These differences could be key in
+understanding the types and roles of changes in ribosomes to halophilic
+conditions.
 
 ## Ions and RNA ##
 
@@ -96,7 +111,7 @@ folding and structure.
 A more realistic example is the work of Shiman *et al* [@Shiman2000]. These
 workers found that \K{} can stabilize 3D structure strongly. In addition, Conn
 *et al* found that a specific RNA structure requires a buried \K{} ion in order
-to form [Conn2002]. These workers found a buried \K{} ion in a ribosomal RNA
+to form [@Conn2002]. These workers found a buried \K{} ion in a ribosomal RNA
 fragment. Energy considerations indicates that this site must be occupied in
 order for the structure to form. In addition, work on ribozymes shows that the
 function can be dependent upon ions [@Beaudoin2008]. This ribozyme requires a
