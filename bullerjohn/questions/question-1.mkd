@@ -133,3 +133,14 @@ ions could then disrupt the interactions between the ribosome and key factors.
 I would then hypothesize changes in the RNA and protein to increase the
 strengths of interactions. This would likely take the form of increased loop
 sizes for loops contacting proteins and more charged residues in the protein.
+
+Examining the literature on ribosomes in halophiles was not fruitful so we
+turned to literature on protein adaptations and effect of ions on RNA structure.
+From these studies I suggest that ribosomes from halophiles will have acidic
+modifications and fewer hydrophobic or basic modifications. The ion literature
+suggests that the ribosome will use ions to fold into complex shapes such as
+junctions. I would guess the junctions are more complex and involve more long
+range contacts. In addition, the RNA/protein interactions would adapt such that
+they have tighter interactions. We also saw that studying these changes will
+require separating the halophiles with high internal salt from those with low
+salt.
