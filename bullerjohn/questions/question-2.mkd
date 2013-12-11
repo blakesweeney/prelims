@@ -1,0 +1,15 @@
+# Barophiles (Piezophiles) #
+
+Cite this [@Lauro2007] a lot. It seems to be the right thing to read.
+
+Problems caused by high pressure:
+
+- dissociation of subunits [@Gross1990, @Niven1999]
+
+- stability of the structure?
+  - unfolding?
+  - aggregation?
+
+Possible adaptations:
+
+- 

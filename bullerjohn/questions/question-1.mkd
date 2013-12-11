@@ -1,1 +1,59 @@
 # Halophiles #
+
+Halophiles are organisms that are adapted to high salt concentrations. This
+adaptation is seen in many branches of life.
+
+I will only focus on bacteria, however, I would like to say there is a great
+deal of work on this subject in Archaea. In fact, we have many structures of
+Archaeal large ribosomal subunits (LSU) [@Evers1994], [@Hansen2003], [@Klein2001a],
+[@Schmeing2005]. In addition, there has been quite a bit of work on the biology
+of these organisms. However that is not the focus of this question so I will
+ignore it. I will instead examine work in bacteria.
+
+Some bacteria adapt to high external salt by increasing the concentration of
+internal ions such as potassium (\K) [@Oren2002]. Doing so requires a series of
+adaptations to their constituent molecules [@Mongodin2005]. Of particular
+interest is the ribosome. I will summarize and predict possible changes to the
+ribosome by examining the primary literature.
+
+The majority of the work on adaptations of ribosomes to high salt seems to focus
+on broad scale changes, such as the ability of the subunits to bind and
+function. I will discuss these observations first. However because there are not
+many papers dealing directly with this subject, I will then examine the changes
+that occur in protein structure to predict analogous changes at a more detailed
+level. Finally, I will look at distinct source of data. That is the literature
+on the effects of ion concentration on RNA structure and stability.  This
+question has been addressed at length in order to better understand in vitro
+folding and structure studies.  (I'd like to point out that it hurts not to cite
+a bunch of reviews in an introduction like this.)
+
+## Ribosomes ##
+
+* Sensitivity to Cl-
+  - Not directly what we want, but still useful.
+  - Important because it implies something about structure
+  - Ribosomes can't bind to polyU or messengers [@Choquet1989]
+  - Not all however [@WYDRO1977]
+
+## Proteins ##
+
+* More acidic [@Mongodin2005]
+  - Can RNA do this?
+  - Limited chemical functionality.
+  - Could imply modifications to increase acidity.
+
+## Ions and RNA ##
+
+It is well known that RNA 3D structure is highly sensitive to ion concentration.
+This sensitivity can effect several distinct processes, such as folding of the
+RNA into a particular shape or the stability of the molecule. \K is the most
+common ion *in vitro* and as such it's effect on RNA folding and stability has
+been extensively studied. Here I will discuss some of the known effects.
+
+* Folding
+
+* Structure
+  - Key to stabilize structure [@Shiman2000].
+  - Can be key to creating a particular structure [@Conn2002].
+  - Protein binding depends on electrostatics [@Garcia-Garcia2003]
+    - Competition for binding
