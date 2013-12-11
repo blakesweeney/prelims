@@ -29,3 +29,4 @@
 *.run.xml
 */questions/*.tex
 *.pyc
+.Rapp.history
