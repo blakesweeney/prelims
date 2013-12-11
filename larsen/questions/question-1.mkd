@@ -2,6 +2,9 @@
 
 * Intro
 
+One of the major unsolved problems in translation is the mechanism of
+translocation. Currently translocation is believed to occur through **MORE**
+
 * Current Model of Translocation [@Moore2012]
 
   EF-G and role GTP are key to talk about.
@@ -13,32 +16,62 @@
       - Effect of GTP hydrolysis on translation
       - Theortical mechanism (browian ratchet vs power stroke)
 
-* Paper: [@Belardinelli2013]
-  - Problem addressed: Effect of GTP hydrolysis on translocation
+Recently several structures of intermediate states translocation
+have been published [@Pulk2013], [@Tourigny2013], [@Pulk2013]. 
 
-  - Work supporting current model [@Tinoco2011]
-    SM-FRET indicates EF-G rectifies by selecting correct backword state
-    Theortical problems with that statement assuming current model
-      Energy must be used to reset. Implies translocate
+**Details on states**
 
-  - Challenged work: [@Belitsina1975], [@Inoue-Yokosawa1974]
+The structural information provided by these studies is only half of the
+mechanism. We need kinetic data in order to completely understand translocation. 
 
-      This work may be flawed due to GTP contamination. This paper cites a 1%
-      contamination rate. Does this explain the observed data?
+These studies provide us with the structural information on the mechanism of
+translocation but do not provide information about kinetics. The recent work by
+Belardinelli *et al* [@Belardinelli2013] is a key paper in that field. This work
+raises some important questions about the mechanism of translocation and the
+function of EF-G.
 
-  - Work supporting challenges: [@Katunin2002], [@Rodnina1997], [@Munro2010],
+Belardinelli *et al* study the effect of GTP hydrolysis on the rates of
+translocation. Currently it is believed **Current thoughts on EF-G/GTP**
 
-    [@Katunin2002]: Rate of translocation slower when using non-hydrolizable analog
+This work is supported by several bulk base experiments [@Belitsina1975],
+[@Inoue-Yokosawa1974]
 
-    [@Rodnina1997]: Hydrolysis precedes and accelerates translocation. Requires domain IV.
+**Describe bulk phase work**
 
-    [@Munro2010]: SM-FRET shows that unlocking which correlates with Domain IV movement
+SM-FRET studies [@Tinoco2011] also support the current model. 
 
-  - Problems with current model if assumptions false
+**Example of SM work**
 
-    Assumption of BR mechanism.
+SM-FRET indicates EF-G rectifies by selecting correct backword state
 
-    Not clear about role of GTP. What is the biophysics behind this?
+However, these studies may be flawed. They use a non-hydrolyzable analog of GTP,
+GDPNP, but the authors find a 1% contamination of GTP in supposedly pure samples
+of GDPNP. This contamination would affect all experiments on translocation and
+confuses the role of GTP in translocation. This concern is not novel as there is
+related work which points to a dependency on GTP hydrolysis and the rate of
+translocation.
+
+[@Katunin2002]: Rate of translocation slower when using non-hydrolizable analog
+
+[@Rodnina1997]: Hydrolysis precedes and accelerates translocation. Requires domain IV.
+
+[@Munro2010]: SM-FRET shows that unlocking which correlates with Domain IV movement
+
+In addition, the current work does not discuss the role of GTP while considering
+biophysical constraints. Clarifying what GTP does and using the correct language
+to describe translocation is very important. **Role of energy in a BR**
+
+[@Moore2012]: Energy must be used to reset state
+
+As Moore points out the current thinking assumes a Brownian Ratchet mechanism.
+**Details on BR**
+
+In order to deal with the contamination issue the authors created a mutant EF-G
+that binds GTP and GDP well but does not hydrolyze GTP to GDP.  **Details on
+mutant**
+
+Using this mutant they performed a series of experiments. First they showed that
+it binds to **EXP details**
 
   - Methodology/Evidence
     1. Creation of a mutant
@@ -47,23 +80,38 @@
     3. Stable complexes formed
     4. Measurement of translocation through **DETAILS**
 
-  - Conclusions from above
-    GTP hydrolysis speeds up rate of translocation. Not solely binding of 
+With these experiments they were able to conclude that GTP hydrolysis speeds up
+the translocation by a factor of **factor**. 
 
-  - Suggestion of new model
-    - Theoretical concerns
-      Could be a Power stroke, would impy some sort of tension in molecule.
-      EF-G(GTP) -> EF-G(GDP) + tension
-      Where is the tension? In between flex domain that goes down?
-      How is GTP released? How is the function coordinated?
-      What is being moved? EF-G itself.
-      It must somehow recitfy the motion of ribosome to select right one, could be BR or PS
-    - Experiments to refute/accept model
-    * SM FRET (underway? [@Belardinelli2013]
-    * Force measurements [@Moore2012]
-    * Check if EF-G adopts functional structure. [My idea?]
-    * Rate of domain movement vs translocation [My idea?]
+    GTP hydrolysis speeds up rate of translocation.
 
-* Summarize
+This conclusions, along with previous work, poses a questions for the current
+paradigm in ribosome function.
 
-Can I tie in recent structural work?
+Unclear what the mechanism is. Is it really a br?
+
+An alternative model would be
+
+Could be a Power stroke, would impy some sort of tension in molecule [@Howard2001].
+EF-G(GTP) -> EF-G(GDP) + tension
+Where is the tension? In between flex domain that goes down?
+How is GTP released? How is the function coordinated?
+What is being moved? EF-G itself.
+It must somehow recitfy the motion of ribosome to select right one, could be BR or PS
+
+This model implies the existance of a flexible hinge like region in EF-G
+[@Howard2001]. 
+**compare to kinesin**
+
+If EF-G is like a motor protein then something is being pushed. What is being
+pushed? Is it the tRNA from the A site to P site.
+
+In order to distinguish between the two possible mechanisms several experiments
+should be done.
+
+* SM FRET (underway? [@Belardinelli2013]
+* Force measurements [@Moore2012]
+* Check if EF-G adopts functional structure. [My idea?]
+* Rate of domain movement vs translocation [My idea?]
+
+In summary, **Summarize**
