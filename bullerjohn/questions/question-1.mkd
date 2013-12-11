@@ -29,31 +29,92 @@ a bunch of reviews in an introduction like this.)
 
 ## Ribosomes ##
 
-* Sensitivity to Cl-
-  - Not directly what we want, but still useful.
-  - Important because it implies something about structure
-  - Ribosomes can't bind to polyU or messengers [@Choquet1989]
-  - Not all however [@WYDRO1977]
+Much of the study of ribosomes an halophiles concerns the effect of chloride
+ions on the stability of the ribosome [@Choquet1989], [@Kamekura1984],
+[@WYDRO1977]. This is not directly what we are interested in, but it can provide
+insights. The two papers show that ribosomes do not bind polyU or messages as
+well in the presence of chloride ions [@Choquet1989], [@Kamekura1984],
+[@WYDRO1977]. They show that this seems to be due to the inability of the
+ribosomes to bind mRNA.
+
+These studies indicate that ribosomes are very sensitive to negative charges.
+This could be because of an excess of positive charges on the surface of the
+molecules, or at least increase of positive charges near the anti-Shine Dalgrano
+sequence.
 
 ## Proteins ##
 
-* More acidic [@Mongodin2005]
-  - Can RNA do this?
-  - Limited chemical functionality.
-  - Could imply modifications to increase acidity.
+Key work in the field of protein adaptation to pressure includes the work by
+Paul *et al*. In this work the authors did a comparative analysis of genomes
+from halophiles and related nonhalophilic species across both Archaea and
+bacteria. They studied questions of both changes in the genome composition and
+protein composition. I will only discuss the changes in proteins. Proteins were
+found to have fewer hydrophobic residues, fewer helices and more acidic
+residues [@Paul2008]. A similar study which examined the genome of \emph{Salinbacter
+ruber} showed an increased amount of acidic residues as well. Both studies show
+decreased amounts of basic residues.
+
+Can these changes be replicated in RNA? One way would be to change the types of
+modifications to RNA. It would be possible to add acidic modifications to the
+surface of ribosomes by adding modifications such as 5-hydroxyuridine which is
+acidic. I should point out this modification inhibits RNA polymerase
+[@Roy-Burman1966] and has only been observed in tRNA. There roughly 100 other
+known modifications to RNA so we may see other changes.
+
+We would also expect a decrease in basic modifications and hydrophobic
+additions. Additionally, we may see unique modifications to RNA structure. This
+would be the most exciting outcome I think.
+
+My argument for increased acidic modifications seems to contradict the earlier
+statements about sensitivity to chloride ions. One possible explanation is that
+the sensitivity to chloride ions was detected in \emph{Vibrio costicola}, an
+organism that does not concentrate \K{} ions but instead uses organic solutes.
+This is very different from \emph{Salinbacter ruber} which does increase it's
+internal potassium concentration [@Oren2002].
 
 ## Ions and RNA ##
 
-It is well known that RNA 3D structure is highly sensitive to ion concentration.
-This sensitivity can effect several distinct processes, such as folding of the
-RNA into a particular shape or the stability of the molecule. \K is the most
-common ion *in vitro* and as such it's effect on RNA folding and stability has
-been extensively studied. Here I will discuss some of the known effects.
+I think the most fruitful part literature to examine will be the work on the
+effects ions and metal on RNA structure. It is well known that RNA 3D structure
+is highly sensitive to ion concentration. This is often studied to understand
+the limitations and accuracy of *in vitro* folding and stability assays. It has
+been found that these ions can affect several distinct processes, such as
+folding of the RNA into a particular shape or the stability of the molecule. \K
+is the most common ion *in vitro* and as such it's effect on RNA folding and
+stability has been extensively studied. There is much work examining the role of
+ions on folding [@VanderMeulen2012], however, I will not discuss it here.
+Instead I will discuss some of the known effects of ions in structure and
+suggest changes we may expect in halophilic rRNA.
 
-* Folding
+Changes in ion concentration can alter the structure of RNA in very surprising
+ways. An extreme example of this is in Popenda *et al* [@Popenda2004]. They
+determined the structure of a helix in 6M \naclo{} and found it forms a left
+handed helix. This structure has never been observed in nature and is unlikely
+to ever been seen. However, this does show how drastically ions can effect
+folding and structure. 
 
-* Structure
-  - Key to stabilize structure [@Shiman2000].
-  - Can be key to creating a particular structure [@Conn2002].
-  - Protein binding depends on electrostatics [@Garcia-Garcia2003]
-    - Competition for binding
+A more realistic example is the work of Shiman *et al* [@Shiman2000]. These
+workers found that \K{} can stabilize 3D structure strongly. In addition, Conn
+*et al* found that a specific RNA structure requires a buried \K{} ion in order
+to form [Conn2002]. These workers found a buried \K{} ion in a ribosomal RNA
+fragment. Energy considerations indicates that this site must be occupied in
+order for the structure to form. In addition, work on ribozymes shows that the
+function can be dependent upon ions [@Beaudoin2008]. This ribozyme requires a
+G-quadruplex structure that
+
+These three studies suggest that ribosomes from halophiles will require \K{} to
+form into their correct shape stable shape. This could take the form of large
+complex structures. An examination of the structure in Conn *et al* suggests a
+junction like motif. It is then possible that the junctions in halophiles would
+be larger and contain many long range interactions. This would allow for a
+complex folding using the \K{} ions. If the ribosome did not evolve to 
+require of high salt, it is possible the folding in high salt would lead to
+incorrect nonfunctional structures.
+
+Work by Garcia Garcia *et al* shows that RNA/protein interactions are dependent
+upon ion strength [@Garcia-Garcia2003]. Large concentrations of internal \K{}
+ions could then disrupt the interactions between the ribosome and key factors.
+
+I would then hypothesize changes in the RNA and protein to increase the
+strengths of interactions. This would likely take the form of increased loop
+sizes for loops contacting proteins and more charged residues in the protein.

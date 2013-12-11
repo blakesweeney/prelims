@@ -1,15 +1,170 @@
 # Barophiles (Piezophiles) #
 
-Cite this [@Lauro2007] a lot. It seems to be the right thing to read.
+Like with Halophiles RNA structure is little studied in Barophiles. There are
+very few genomes known and of those most, *Methanocaldococcus jannaschii*
+[@Bult1996] and *Pyrocuccus abyssi* [@Cohen2003] are Archaea. The known
+bacterial genome is *P. profundum strain SS9*, [@Vezzi2005].
 
-Problems caused by high pressure:
+There is much more work examining protein structure and adaptation than RNA.
+Fortunately, the RNA work does examine the ribosome and is more detailed than in
+Halophiles. Thus I will follow a similar pattern by beginning with discussing
+the work on ribosomes and then move on to discussing the work in proteins.
 
-- dissociation of subunits [@Gross1990, @Niven1999]
+## Ribosomes ##
 
-- stability of the structure?
-  - unfolding?
-  - aggregation?
+The effect of increasing pressure on ribosomes has been studied [@Gross1990],
+[@Niven1999], [Lauro2007]. Initially this work examined large scale
+characteristics of the ribosome, such as assembly. However more recent work has
+considered the ribosome in detail. I will begin with the broader picture and
+move into the more detailed work.
 
-Possible adaptations:
+The first work, Gross *et al* found that increasing pressure causes the
+dissociation of \ec{} ribosomal subunits. This work took assembled \ec{}
+ribosomal subunits and subjected them to high pressure. It was found that as
+pressure increased the ribosomes dissembled. This suggests that ribosomes
+adapted to high pressure must adapt to bind subunits tightly.
 
-- 
+Related work by Niven *et al* [@Niven1999] performed a similar experiment *in
+vivo*.
+
+The dissociation of subunits can be explained with a simple biophysical model.
+If pressure increases then the thermal force on the molecule will increase. This
+is because 
+
+$$
+F_{thermal} = \gamma v_{ave}
+$$ 
+
+where $\gamma$ is the diffusion constant [@Howard2001]. The diffusion constant
+for a ribosome can be approximated by 
+
+$$
+\gamma = 6 \pi \eta r
+$$
+
+where $r$ is the radius of the ribosome treated as a sphere and $\eta$ is the
+viscosity of the solution, in this case water [@Howard2001]. Generally, as
+pressure increases the viscosity of water increases [@Schmyhelzer2005]. This
+leads to an increase in $\gamma$ and thus an increase in the thermal force.
+
+An increased thermal force means the binding energy to maintain an intact
+ribosome increases. Because \ec{} ribosomes are not adapted to high pressure
+they do not have a high enough binding energy to stay assembled in high
+pressure. 
+
+This effect is similar to increasing the temperature. In increased temperature
+the $v_{ave}$ increases because:
+
+$$
+v_{ave} = \frac{3kT}{m}
+$$
+
+where $T$ is temperature, $m$ is mass and $k$ is Boltzmann's constant
+[@Howard2001]. This highlights an unexpected connection between adapting to high
+pressure and adapting to adapting to high temperature. Both will require
+increased binding strength though they may go about it in different ways.
+
+I must point out that this is a very simple model. I am assuming that viscosity
+always increases with pressure. Sadly, the situation is not that simple
+[@Schmyhelzer2005]. Schmelzer *et al* point out that it is possible for the
+viscosity to decrease at low temperatures [@Schmyhelzer2005]. However, this
+model does seem to explain data so it is worth considering.
+
+What adaptations would this increased pressure provoke? Well we would want
+increased binding between the LSU and SSU. This suggests that the bridges
+between the two subunits. Some bridges are RNA/RNA while others are RNA/protein.
+Bridges play an important role in translocation [@Liu2013]. Some of them must
+break and be reformed during the process while others remain constant. Thus we
+could expect that the bridges which do not break during translocation, would
+adapt to bind more tightly to each other. However, this adaptation would pose a
+problem. Many barophiles are also cold adapted. The cold adaptation would
+suggest the bridges bind less tightly, indicating to me that there are competing
+pressures in barophilic adaptation.
+
+Niven *et al* found that the \ec ribosomes may enter a less stable conformation
+at high pressure [@Niven1999]. In this work they subjected whole \ec{} cells to high
+pressure. They monitored changes in temperature using differential scanning
+calorimetry. They found that there was an increase in the temperature changes
+associated with ribosomes. This indicates that the ribosomes are changing shape.
+As the cells die from this treat they propose that the ribosome enter a less
+stable and functional state as pressure increases [@Niven1999]. 
+
+Therefore, the ribosome must adapt to maintain a functional shape at high
+pressure. This could involve such things as more stable structures that can
+resit the pressure or structures which function in their pressure induced shape.
+As many barophiles are psychrophiles I am inclined to suggest they adapt to
+function in their alternative conformation.
+
+The aforementioned work deals with ribosomes on a large scale and does not drill
+down to examine the detailed structure. Work by Lauro *et al* examined sequences
+from ribosomes of barophiles allowing us a clearer picture of observed changes
+[@Lauro2007].
+
+These workers sequenced some newly isolated barophiles. They found that
+barophilic organisms have longer helices, particularly in the h10 and h11
+helices. In addition, they examined a previously known barophile and found that
+it changed the SSU it used as pressure increased. This organism switched to a
+SSU with a longer h10, h11 and h44 (They call this h49 but the positions they
+list are for h44 and there is no h49 in \ec ribosomes, so I'm gonna call it
+h44). h44 is a key helix as it contains bridges and the decoding site. Mutations
+of those bridges can lead to death of the organism [@Liu2013]. This lends
+credence to the idea that the bridges adapting to function at high pressure. It
+is possible that other helices increase length but it was not noted by these
+authors. An attractive hypothesis is that other helices lengthen in other
+organisms that simply have not been studied yet. 
+
+Their analysis only looked at the whole helical element and did not consider the
+roles of loops versus the stem regions. I would suspect that the loops of these
+organisms increases more than the helical regions. We have seen that it is the
+loop regions which contact protein and create long range contacts in the RNA
+(unpublished data). The helices make much fewer contacts with RNA and protein.
+Work in DNA shows that helices are sensitive to pressure and may adopt different
+structures at high pressure [@Amiri2011].
+
+Lauro *et al* point out that barophiles share many sequence similarities with
+psychrophiles. This would seem to indicate that organisms first adapt to the
+cold then to high pressure. This would indicate a conflicting needs for the
+organism. Maintaining cold adaptation and pressure adaptation would be a
+comprise between different needs.
+
+They also point out that adapting to pressure often brings about an adaptation
+to a higher temperature [@Lauro2007] which fits with the earlier model of effect
+of thermal forces on ribosomes.
+
+## Proteins ##
+
+Protein must also adapt to barophilic conditions. We will explore these changes
+to see if any changes could be found in ribosomes. Di Giulo examined the changes
+in amino acids between aligned proteins of \emph{Pyrococcus abyssi}, a
+barophile, and \emph{Pyrococcus furiosus}, a nonbarophilic relative. He found
+that the proteins end to have more polar amino acids and smaller amino acids
+[@DiGiulio2005b]. 
+
+How can we apply this lesson to ribosomal adaptation? We have limited building
+blocks in RNA with only 4 units, A, C, G and U. The size constraint could
+indicate we would have more C and U as they are smaller than A and G. However,
+this is unlikely as the ribosome must maintain the structure of its helices. In
+addition changing base composition will not drastically alter the charge of the
+ribosome. Instead we can consider modifications which can alter size and charge.
+
+Polarity be increased through modification by adding charged groups to the
+molecule. For example, we can modify a A to I (inosine) by replacing the \nh{}
+group with a O or we can add a methyl to a G to form 1-methylguanosine. Of the
+modifications we would expect to see ones that add polar groups, so
+methylguanosine would not be favored. In addition, we would not expect additions
+of large groups, so something like 5-(isopentenylaminomethyl)-2'-O-methyluridine
+is unlikely. Instead I would predict we see things like inosine or thiocytidine.
+These are modifications which add small charged groups the base.
+
+There is also work which examines the protein expression in barophiles
+[@Pavlovic2005]. This work shows an increased expression of EF-G and EF-Tu upon
+increased pressure. I interpret this to mean that protein/RNA binding is
+disrupted upon increased pressure, leading me to suggest that adaptation to
+high pressure would increase the strength of protein/RNA contacts. 
+
+In summary, adapting to barophilic conditions requires a large range of changes.
+We have examined some literature on such adaptations, both for RNA and for other
+biological molecules. From this exploration I we can expect the ribosome to
+adapt to have strong binding between it's subunits through mutations in the
+bridge regions [@Lauro2007], more small polar modifications [@DiGiulio2005b] and
+increased binding strength with proteins [@Pavlovic2005].
