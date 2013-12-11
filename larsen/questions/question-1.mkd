@@ -1,1 +1,69 @@
-# Novel Insights to Ribosome Function #
+# Novel Insights to Ribosomal Translocation #
+
+* Intro
+
+* Current Model of Translocation [@Moore2012]
+
+  EF-G and role GTP are key to talk about.
+
+  * Current assumptions on function
+      - Is a BR, evidence consitent but not proven
+  * Highlight gaps **CITES**
+      - A signal is transmitted
+      - Effect of GTP hydrolysis on translation
+      - Theortical mechanism (browian ratchet vs power stroke)
+
+* Paper: [@Belardinelli2013]
+  - Problem addressed: Effect of GTP hydrolysis on translocation
+
+  - Work supporting current model [@Tinoco2011]
+    SM-FRET indicates EF-G rectifies by selecting correct backword state
+    Theortical problems with that statement assuming current model
+      Energy must be used to reset. Implies translocate
+
+  - Challenged work: [@Belitsina1975], [@Inoue-Yokosawa1974]
+
+      This work may be flawed due to GTP contamination. This paper cites a 1%
+      contamination rate. Does this explain the observed data?
+
+  - Work supporting challenges: [@Katunin2002], [@Rodnina1997], [@Munro2010],
+
+    [@Katunin2002]: Rate of translocation slower when using non-hydrolizable analog
+
+    [@Rodnina1997]: Hydrolysis precedes and accelerates translocation. Requires domain IV.
+
+    [@Munro2010]: SM-FRET shows that unlocking which correlates with Domain IV movement
+
+  - Problems with current model if assumptions false
+
+    Assumption of BR mechanism.
+
+    Not clear about role of GTP. What is the biophysics behind this?
+
+  - Methodology/Evidence
+    1. Creation of a mutant
+      * Conserved His91 mutated to Ala
+    2. Measure of GTP binding/hydrolysis
+    3. Stable complexes formed
+    4. Measurement of translocation through **DETAILS**
+
+  - Conclusions from above
+    GTP hydrolysis speeds up rate of translocation. Not solely binding of 
+
+  - Suggestion of new model
+    - Theoretical concerns
+      Could be a Power stroke, would impy some sort of tension in molecule.
+      EF-G(GTP) -> EF-G(GDP) + tension
+      Where is the tension? In between flex domain that goes down?
+      How is GTP released? How is the function coordinated?
+      What is being moved? EF-G itself.
+      It must somehow recitfy the motion of ribosome to select right one, could be BR or PS
+    - Experiments to refute/accept model
+    * SM FRET (underway? [@Belardinelli2013]
+    * Force measurements [@Moore2012]
+    * Check if EF-G adopts functional structure. [My idea?]
+    * Rate of domain movement vs translocation [My idea?]
+
+* Summarize
+
+Can I tie in recent structural work?
