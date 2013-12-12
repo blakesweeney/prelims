@@ -2,41 +2,49 @@
 
 One of the major unsolved open problems in ribosomal function is the mechanism
 of translation. Translocation is the process where a tRNA in the A site with the
-growing polypeptide chain is moved from the A site to P site.
-Currently translocation is believed to have the following steps [@Moore2012],
-[@Belardinelli2013]:
+growing polypeptide chain is moved from the A site to P site. The currently
+understood mechanism is roughly as follows:
 
-1.  The amino acid of the tRNA randomly moves between the A site and P site.
-    This motion is driven solely by thermal motion and is known as the hybrid
-    state.
-2.  EF-G(GTP) binds the ribosome and stabilizes the hybrid state.
+1.  The amino acid of the tRNA randomly moves between the A site and P site of
+    the LSU. This motion is driven solely by thermal motion and is known as the hybrid
+    state. The P site tRNA also fluctuates between the E and P site. Both tRNA
+    remain bound to the A and P site in the SSU. In addition, the SSU enters the
+    rotated state where it is rotated counter-clockwise relative to the LSU. This
+    state is neccessary for tRNA translocation and the hybrid state.
+2.  EF-G(GTP) binds the ribosome and stabilizes the rotated state.
 3.  EF-G(GTP) hydrolyzes GTP to GDP + Pi and remains bound to the ribosome.
     This causes domain IV of EF-G moves down to interact with the SSU A site
 4.  The tRNA translocates from the A site to P site and in a coordinated fashion
     the mRNA moves one codon. This causes the release of Pi from EF-G. In
     addition, the E site tRNA is released and P site moves to the E site.
-5.  EF-G(GDP) is released from the ribosome.
+5.  EF-G(GDP) is released from the ribosome. At this point translocation is
+    complete.
 
-It is believed that the fundamental mechanism is that of a Brownian Ratchet
-[@Moore2012]. This is a molecular device which rectifies thermal motion to
-select only the desirable motions [@Moore2012], [@Howard2001]. Without
-rectification thermal motion is as just as likely to move backward as forward.
-If this mechanism is true then the energy from GTP hydrolysis would be used to
-select the motion, or more accurately to reset once the correct state is selected
+It is believed that the fundamental mechanism of translocation is that of a
+Brownian Ratchet [@Moore2012]. This is a molecular device which rectifies
+thermal motion to select only the desirable motions [@Moore2012], [@Howard2001].
+Without rectification thermal motion is as just as likely to move backward as
+forward. If this mechanism is true then the energy from GTP hydrolysis would be
+used to select the motion or to reset once the correct state is selected
 [@Moore2012]. This type of molecular machine has been shown to explain the
 function of RNA polymerase [@Abbondanzieri2006].
 
 There is an alternative type of molecular machine which has not yet been ruled
-out to explain ribosome function. This is known as a powerstroke machine. In a
-power stroke machine energy is used to create or release tension in a molecule.
-This tension provides a force which biases the thermal motion to create
-directional motion [@Howard2001]. This is known to occur in kinesin molecules
+out to explain ribosome function. This is known as a powerstroke machine.
+Powerstroke machines create directional motion through the release of tension.
+This release of tension provides a force which biases the random motion in a
+direction. It takes very little force, only a few pico newtons, to bias random
+motion significantly [@Howard2001]. In a power stroke machine energy is used to
+create or release tension in a molecule. This contrasts with Brownian ratchet
+where all the force comes from thermal motion. Both mechanisms require the
+random motions of thermal noise to function but they do not harness this the
+same way. A powerstroke mechanism is known to occur in kinesin molecules
 [@Howard2001].
 
-The current mechanism is not very detailed and we are still missing
-several important pieces of information. For example, what states does the
-ribosome undergo while translocating, what is the role of GTP and is EF-G really
-a Brownian ratchet?
+The current mechanism of translocation is not very detailed and we are still
+missing several important pieces of information. For example, what states does
+the ribosome undergo while translocating, what is the role of GTP and is EF-G
+really a Brownian ratchet?
 
 Recently several structures of intermediate states translocation have been
 published [@Zhou2013], [@Tourigny2013], [@Pulk2013]. This work gives us a much
@@ -45,9 +53,6 @@ papers show us that the tRNA's have a state between the hybrid state and final
 state [@Zhou2013]. Domain IV of EF-G moves into an intermediate state where
 domain IV is not fully extend into the A site [@Tourigny2013]. And the switch
 domain of EF-G becomes ordered [@Pulk2013].
-
-The structural information provided by these studies is only half of the
-mechanism. We need kinetic data in order to completely understand translocation.
 
 These studies provide us with the structural information on the mechanism of
 translocation but do not provide information about kinetics. The recent work by
@@ -70,11 +75,12 @@ hydrolysis occurs much before translocation is taken to mean that the energy of
 hydrolysis is somehow used in translocation. The way this energy is used is an
 open question.
 
-The current model, which is supported by bulk phase work
-[@Belitsina1975], [@Inoue-Yokosawa1974] and SM-FRET studies [@Tinoco2011] does
-not consider the energy from GTP hydrolysis as important for driving
-translocation.
-**Previous WORK**
+The current model, which is supported by bulk phase work [@Belitsina1975],
+[@Inoue-Yokosawa1974] and SM-FRET studies [@Tinoco2011] does not consider the
+energy from GTP hydrolysis as important for driving translocation. This model
+uses suggests the GTP binds to the ribosome and stabilizes the state that allows
+tRNA translocation [@Tinoco2011]. The cleavage of GTP serves to put EF-G into a
+low affinity state where does not bind to the ribosome as well.
 
 However, this previous work uses a non-hydrolyzable analog of GTP, GDPNP, but
 the authors find a 1% contamination of GTP in supposedly pure samples of GDPNP.
@@ -90,22 +96,36 @@ alanine. This residue is conserved across many different related molecules
 
 Using this mutant they performed a series of experiments. First they showed that
 it binds to GTP with nearly the same affinity as the native protein and it does
-not hydrolyze GTP. They then tested the rates of translocation using various
+not hydrolyze GTP. This confirmed that it should function like native EF-G but
+without cleaving GTP. They then tested the rates of translocation using various
 fluorophoes. They monitored the movement of the tRNA from A site to P site, P
 site to E site, E site off the ribosome and the movement of the mRNA.
 
-Here they found translocation was slow without hydrolysis.  **MORE**
+Here they found translocation was slow without hydrolysis. All movements were
+slowed down, except that of the movement from E-site off the ribosome. This
+could be due to experimental conditions however. Interestingly, they found the
+motion of the mRNA was different than that of the tRNA movement. They found a
+step in mRNA translocation which occurred slower than the tRNA A to P site
+translocation. This step occurred at the same rate when wildtype EF-G was
+present. This may indicate a step in mRNA translocation which is directly
+effected by GTP hydrolysis [@Belardinelli2013].
 
-The they tested the strength of the EF-G/ribosome complexes. They found that
+Then they tested the strength of the EF-G/ribosome complexes. They found that
 EF-G was bound tightly enough to prevent the binding of EF-Tu/tRNA and strong
 enough to remain intact during centrifugation. The wildtype enzyme required a
-bound antibiotic to remain attached during centrifugation.
+bound antibiotic to remain attached during centrifugation. This indicates that
+EF-G needs GDP in order to unbind from the ribosome.
 
 This conclusions, along with previous work, poses a questions for the current
 paradigm in ribosome function. Specifically what is the role of GTP hydrolysis
-in translocation? These experiments on their own do not rule out a Brownian
-ratchet or powerstroke mechanism. However using them we can suggest a
-powerstroke mechanism that accounts for these observations.
+in translocation? It is clear that hydrolysis is needed for rapid translocation,
+particularly for movement of mRNA. We can also see that EF-G needs GDP to
+release from the ribosome.
+
+These experiments on their own do not address the fundamental question in
+translocation, is the mechanism a Brownian ratchet or powerstroke machine.
+However using this data we can suggest a powerstroke mechanism that accounts for
+these observations.
 
 Binding of EF-G/GTP to the ribosome triggers catalysis of GTP. This then creates
 places strain in some part of EF-G. This part is likely between the connection
@@ -151,19 +171,37 @@ simpler experiments which can be done to help understand translocation.
 One obvious experiment that may be underway is to do SM-FRET using this mutant.
 We would want to ask questions abouts the detailed rates and motions of A and P
 site tRNA when this mutant is present. In addition, rates of E-site dissociation
-should be reexamined.
+should be reexamined. Simply redoing much of previous work in translocation with
+this mutant would clarify many of the issues literature. 
 
 Another experiment would be to examine the rate of domain IV movement with the
 rate of translocation. If domain IV is driving the process than the rate of it's
 motion should correlate with that of translocation. Some related work has been
-done [@Rodnina1997], but this work only deletes domain IV. It does not monitor
-the rate if domain IV movement and translocation.
+done [@Rodnina1997], but this work only deletes domain IV and finds that it is
+key to translocation. It does not monitor the rate if domain IV movement and
+translocation.
 
-In summary, **Summarize**
+In addition, their observations on mRNA movement are very interesting. Much work
+on translocation has examined the movement of tRNA and less considers that of
+the mRNA [@Rodnina2011a]. A more detailed study of mRNA movement, possibly with
+SM-FRET, using this mutant would be exciting.
 
-<!--Could be a Power stroke, would impy some sort of tension in molecule [@Howard2001].-->
-<!--EF-G(GTP) -> EF-G(GDP) + tension-->
-<!--Where is the tension? In between flex domain that goes down?-->
-<!--How is GTP released? How is the function coordinated?-->
-<!--What is being moved? EF-G itself.-->
-<!--It must somehow recitfy the motion of ribosome to select right one, could be BR or PS-->
+In summary, this paper does not overturn our fundamental understanding of
+translocation. It does provide good evidence for changing the role of EF-G and
+GTP hydrolysis in translocation. We can suggest some alternative mechanisms as a
+result of the data. One such mechanism is based on a powerstroke model while the
+current paradigm is that of a Brownian ratchet. Currently we cannot distinguish
+between a Brownian ratchet like mechanism and a powerstroke mechanism. It is
+unclear if this mechanism is how the ribosome works but it is possible. More
+experiments need to be done to determine what type of machine the ribosome is
+[@Moore2012]. 
+
+Personally, I think EF-G functions through a Brownian ratchet
+mechanism but the alternative must be considered. My reasoning is that the
+powerstroke model I have proposed here has too many holes. How does movement of
+domain IV lead to favoring the rotated state? What is storing tension? Where is
+that tension being released? These are essential parts of a powerstroke
+mechanism but I cannot see how they fit into the current picture of ribosome
+translocation. That said, I suggest this mechanism as a possible alternative
+because I'm sure it can be refined and cannot be excluded with the current
+evidence.
