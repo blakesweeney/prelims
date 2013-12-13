@@ -1,1 +1,119 @@
-# Source of Ecotypes #
+# Source of Ecotypes and Additions from Current Theory #
+
+> Recent work by Polz and Alm has shed light on the formation of genetic
+> clusters as a consequence of ecological specialization. How do they suggest
+> that ecotypes arise within a population? How does work from Polz and Alm add
+> to past idea of ecotype theory?
+
+Recently, Polz and Alm published a review [@Polz2013] which discusses the origin
+of ecotypes. Ecotypes are defined as as groups of related organisms that exist
+in different niches in some environment [@Cohan2002]. Each ecotype does not
+compete with the others, but only amongst itself for resources. 
+
+An example is the bacteria of the \emph{Vibrionaceae} (\V) family. Many of these
+organism live near the shore but there are distinct grouping where one set is
+free living and other lives on larger particulate matter in the water column
+[@Hunt2008]. These groups may represent groups at various taxonomic levels, they
+could be subspecies or occur at the species level.
+
+Determining how and where such groups come into existence is an open and
+difficult question. The current theory do not yet explain all observed data as
+will be discussed. Recently, Polz and Alm have attempted to extend
+our current understanding [@Polz2013]. The model they propose for the formation
+of ecotypes is as follows.
+
+1.  First one or more organisms develop adaptive mutations. This can arise in
+    through recombination, or mutation.
+
+    These organisms form the basis of the ancestral ecotypes.
+
+2.  These genes then recombine into other genomes.
+
+    The ecotype specific genes must spread through part of the population to
+    create the ancestral ecotype population. The spreading is driven by
+    horizontal gene transfer.
+
+3.  This can then cause organisms to associate with different environments.
+
+    By increasing the fitness in a particular environment the organisms become
+    more likely to be found there.
+
+4.  This ecological separation causes reduced gene flow between populations.
+
+    Gene flow between populations depends on ecological and physical constraints.
+    Organisms which have no way to interact will not share genes. At this point
+    the two populations are not distinct taxonomically.
+
+5.  If the reduced gene flow remains stable  the populations begin to
+    differentiate.
+
+    Without gene flow to homogenize the populations they will differentiate.
+    This allows the two populations to become distinct taxonomically.
+
+This model is supported by several lines of evidence. First the work of Hunt *et
+al* examined the genomes of \V{} species isolated from different fractions of
+coastal water [@Hunt2008]. These workers fractioned water based upon size and
+characterized \V{} samples in the water. They found that even though these
+organisms were extremely similar overall, they differentiated into different
+niches. Furthermore, the differences they found were located to only a few
+genetic regions.
+
+Another similar line of evidence was found in the examination of differentiation
+in hot springs [@Cadillo-Quiroz2012]. This work found differentiation with no
+evidence of genome wide sweeps in contrast to the current theory. In this work,
+workers analyzed full genomes from bacteria in hot springs. Here they found that
+while there is recombination between two populations these populations are still
+becoming distinct. This is because the recombination is occurring in relatively
+small parts of the genome, likely the flexible region only.
+
+A lack of genome wide sweeps is at odds with current theory that suggests that
+these would be needed to create and maintain distinct ecotypes. Here it appears
+that only gene level sweeps are needed. Previous theoretical work suggests that
+such sweeps are necessary [@Fraser2007]. While this may be true in some
+situations, the current work points out cases where this does not happen.
+
+A second set of observations as provided by Shapiro *et al* [@Shapiro2012]. This
+work extends work of Hunt *et al* to study the characteristics of genes and
+genomes of populations in more detail. They found that generally only genes
+sweep populations, only a few genomes have swept part of the populations and
+finally the extent recombination is dependent upon time. That is to say earlier
+recombination events cross population boundaries, while more recent ones tend to
+be population specific. These observations contradict current theory because
+there is no evidence of selection, which is believed to be needed for creation
+of ecotypes.
+
+A third set of evidence is the presence of habit specific genes in
+*Prochloroccus*. It was observed that while much the genomes are identical there
+are regions of genes that appear to be habit specific [@Coleman2010]. This seems
+to suggest that recombination works to both maintain homogeneity within
+populations while also maintaining a difference between the two populations. The
+overall similarity is maintained through recombination of parts of the core
+genome. This happens between the two populations. However, recombination between
+members of the same population seems to serve to keep certain genes common
+within a single population. This complex and seemingly contradictory role of
+recombination is not covered with the current theory.
+
+This extends current theory, which focuses on allopatric speciation and the role
+of selection [@Whitaker2006], [@Cohan2002]. That is that speciation is often
+caused by physical barriers between populations or selective pressure. In the
+evidence presented here there is differentiation without either of these forces.
+
+Furthermore, this work explains the divergence of organisms despite a high rate
+of gene turnover. A high rate of turnover would normally indicate the genomes
+are being homogenized, however this theory shows otherwise. The turnover rate
+may be high within the population, but low between populations leading to
+divergence.
+
+This new theory does not overturn ecotype theory. It does explain some
+observations that previous work could not, while leaving open questions
+[@Shapiro2012], such as:
+
+1. What limits the gene flow? The types of barriers that cause decreased gene
+   flow are not clear form the current models. 
+
+2. Why do genome wide selective sweeps not occur?
+
+In summary, Polz and Alm suggest a mechanism for generation of ecotypes without
+selective pressure. This is based on the gradual imposition of ecological not
+physical barriers to recombination. Their theory explains some recent
+observations which are not explained by existing theories.

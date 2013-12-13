@@ -1,1 +1,72 @@
 # Role of 16S in Differentiating Ecotypes #
+
+> Can the 16S be used to reliably differentiate between ecotypes? Explain your
+> answer.
+
+Here I assume you mean 'can the SSU *alone* differentiate between
+ecotypes'. If this is not what you meant and instead the question was 'can the
+SSU, *along with many other genes,* be used to reliably differentiate ecotypes'
+then the answer is obviously yes. This is what happens in all full genome
+studies even if the SSU is simply ignored [@Shapiro2012], [@Hunt2008],
+[@Hanage2006].
+
+However, as that is not a very interesting question I will assume you meant
+otherwise. Thus the answer is no. While the SSU can sometimes be used to
+distinguish ecotypes in the correct situation, it is not reliable nor a good
+idea. And in the cases where it is possible, this is only because a
+comprehensive analysis was done first making an SSU based separation possible.
+
+As the name ecotype implies, this is a classification based upon ecological
+considerations. This means that ecotypes are distinguished by where they live,
+what resources they use, essentially their local habit or niche is what marks
+an ecotype, not just their phylogenetic lineage.
+
+Over time distinct habits allows for reduced gene flow and thus separation of
+populations. This may lead to classical speciation given long enough. At this
+point it becomes possible to distinguish ecotypes by SSU sequences alone, but
+prior to this ecotypes will be indistinguishable based on SSU alone.
+
+This is because the main differences between ecotypes will be found in the
+flexible genome. This will contain genes adapted to different niches. For
+example, genes for attachment on to substrate, different transporters for
+metabolites and different enzymes are likely targets for ecotypes specific
+genes. Even using housekeeping genes makes it possible to miss classify
+organisms [@Whitaker2006]. The SSU sequences are likely to be very similar,
+since the populations may have only recently diverged and would easily be missed
+by simpler analysis [@Hanage2006].
+
+Using the SSU means using a classical taxonomic classification. Sometimes these
+two coincide, but not always [@Hunt2008]. In the work of Hunt *et al* it is
+probably possible to find at least some of the different ecotypes using SSU
+sequence alone. However this is only possible because we already know the
+answers. Working forward from SSU to ecotype is much more difficult. 
+
+In addition, the cutoffs that would need to be used based on the SSU are likely
+to be arbitrary and have no biological meaning. Because the SSU is not likely to
+be part of the differentiation to ecotypes we would have to do some impressive
+intellectual contortions to find a series of cutoffs to separation ecotypes.
+These criteria are likely to change in a new situation meaning they have no
+biological meaning. Instead by using criteria based upon the biology, and thus
+ecology, of the organism we can find meaningful criteria using generally
+applicable guidelines.
+
+A good analysis, and what is done in the studies here, is to analyze entire
+genomes. This allows the inclusion of many genes including the ones which are
+differentiating to form ecotypes. 
+
+In this analysis it may not hurt to include SSU sequence. Particularly in cases
+where there is a large population diversity and the SSU and other highly
+conserved sequences can be used to provide an initial grouping of tightly
+related organisms. For example using the SSU to find families and genera would
+be reliable. This may be useful to the overall analysis but is not sufficient
+for finding ecotypes. However, this is only as a supplement and is not
+strictly necessary.
+
+Finally, the classical taxonomic classification has problems even with very
+different organisms, let alone between closely related populations. For example
+consider the case of *P. ingrahamii* and  *P. boydii*. Boydii and ingrahamii are
+99% similar at the SSU nucleotide level yet are only less than 50% similar at
+the whole genome level [@Auman2009]. Clearly these organisms are highly
+different at a global level. Yet their SSU remain very similar. An analysis
+based solely off SSU sequences would group these together when they should not
+be.
